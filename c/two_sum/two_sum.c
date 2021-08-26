@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/two-sum/
+
 #include <stdlib.h>
 
 int *twoSum(int *nums, int num_size, int target, int *return_size)
