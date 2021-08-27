@@ -3,7 +3,7 @@ SHELL = /bin/sh
 CC = gcc
 CFLAGS= -g -Wall -Wextra -Werror -Wno-unused-function -Wno-unused-parameter
 
-SRC_DIR = valid_parens
+SRC_DIR = remove_dup_sorted_arr
 SRC = $(wildcard $(SRC_DIR)/*.c)
 
 NAME = $(SRC_DIR)/a.out
@@ -28,5 +28,5 @@ re: fclean all
 c: re
 	./$(NAME)
 
-test:
-	$(CC) $(CFLAGS) $(SRC_DIR)/test.c -o $(NAME) && ./$(NAME)
+t:
+	$(CC) $(CFLAGS) $(SRC_DIR)/test.c -L $(SRC_DIR)/ -lft -o $(NAME) && ./$(NAME)
