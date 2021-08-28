@@ -1,9 +1,10 @@
 SHELL = /bin/sh
 
 CC = gcc
-CFLAGS= -g -Wall -Wextra -Werror -Wno-unused-function -Wno-unused-parameter
+CFLAGS= -g -Wall -Wextra -Werror -Wno-unused-function -Wno-unused-parameter \
+		-Wno-unused-variable
 
-SRC_DIR = remove_dup_sorted_arr
+SRC_DIR = search_insert_pos
 SRC = $(wildcard $(SRC_DIR)/*.c)
 
 NAME = $(SRC_DIR)/a.out
