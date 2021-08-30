@@ -1,10 +1,10 @@
 SHELL = /bin/sh
 
 CC = gcc
-CFLAGS= -g -Wall -Wextra -Werror -Wno-unused-function -Wno-unused-parameter \
-		-Wno-unused-variable
+CFLAGS= -g -Wall -Wextra -Werror \
+	-Wno-unused-function -Wno-unused-parameter -Wno-unused-variable
 
-SRC_DIR = search_insert_pos
+SRC_DIR = plus_one
 SRC = $(wildcard $(SRC_DIR)/*.c)
 
 NAME = $(SRC_DIR)/a.out
@@ -30,4 +30,4 @@ c: re
 	./$(NAME)
 
 t:
-	$(CC) $(CFLAGS) $(SRC_DIR)/test.c -L $(SRC_DIR)/ -lft -o $(NAME) && ./$(NAME)
+	$(CC) $(CFLAGS) $(SRC_DIR)/test.c -o $(NAME) && ./$(NAME)
