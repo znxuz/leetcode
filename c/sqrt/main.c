@@ -2,7 +2,6 @@
 
 #include <math.h>
 
-// TODO devide and conquer ?
 int mySqrt(int x)
 {
 	int base;
