@@ -9,7 +9,6 @@ static int get_index_limit(char *haystack, char *needle)
 	return 0;
 }
 
-// FIXME better algorithm
 int strStr(char * haystack, char * needle)
 {
 	if (!*haystack && !*needle)

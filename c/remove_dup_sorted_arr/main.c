@@ -8,7 +8,6 @@ static void shift(int *dest, int *src, int count)
 
 int removeDuplicates(int* nums, int nums_size)
 {
-	// FIXME no spaghetti pls
 	for (int i = 0; i < nums_size; i++) {
 		int shift_size = 0;
 		while (i + shift_size + 1 < nums_size && *(nums + i) == *(nums + shift_size + i + 1))
