@@ -35,7 +35,7 @@ int max_subarray(int *nums, int left, int right)
 			max_crossarray(nums, left, right, mid));
 }
 
-int maxSubArray(int* nums, int nums_size)
+int maxSubArray_solution(int* nums, int nums_size)
 {
 	return max_subarray(nums, 0, nums_size - 1);
 }

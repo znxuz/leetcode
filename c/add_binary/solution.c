@@ -3,7 +3,7 @@
 
 #define OFFSET '0'
 
-char * addBinary(char *a, char *b)
+char * addBinary_solution(char *a, char *b)
 {
 	int a_len = strlen(a);
 	int b_len = strlen(b);

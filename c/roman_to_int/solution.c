@@ -8,7 +8,7 @@ unsigned int table[90] = { // only need space till max ASCII value (X = 88)
 	['M'] = 1000
 };
 
-int romanToInt(char *str)
+int romanToInt_solution(char *str)
 {
 	int res = 0;
 	char next;
@@ -22,12 +22,4 @@ int romanToInt(char *str)
 	}
 	
 	return res;
-}
-
-#include <stdio.h>
-
-int main(void)
-{
-	printf("%d\n", romanToInt("IV"));
-	printf("%d\n", romanToInt("MCMXCIV"));
 }
