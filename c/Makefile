@@ -4,7 +4,7 @@ CC = gcc
 CFLAGS= -g -Wall -Wextra -Werror -Wno-unused-function -Wno-unused-parameter \
 		-Wno-unused-variable
 
-SRC_DIR = binary_tree_max_depth
+SRC_DIR = sorted_arr_to_AVL
 SRC = $(wildcard $(SRC_DIR)/*.c)
 
 UTILS_DIR = utils

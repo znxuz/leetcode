@@ -1,22 +1,35 @@
-// https://leetcode.com/problems/maximum-depth-of-binary-tree/
+#include <stdio.h>
 
-#include "main.h"
+#include "function.h"
+#include "../binary_tree_inorder/function.c"
+#include "../utils/array.h"
 
-static int max(int x, int y)
+static struct TreeNode *get_tree(void)
 {
-	return x > y ? x : y;
+	struct TreeNode *root = get_node(10);
+	insert_node(&root, get_node(20));
+	insert_node(&root, get_node(5));
+
+	insert_node(&root, get_node(2));
+	insert_node(&root, get_node(7));
+
+	insert_node(&root, get_node(15));
+	insert_node(&root, get_node(25));
+
+	return root;
 }
 
-int max_depth_rec(struct TreeNode *root)
+static void print_tree_inorder(struct TreeNode *root)
 {
-	if (!root)
-		return 0;
-	if (!root->left && !root->right)
-		return 1;
-	return max(max_depth_rec(root->left) + 1, max_depth_rec(root->right) + 1);
+
+	int inorder_size, *inorder_arr = inorderTraversal(root, &inorder_size);
+	print_arr(inorder_arr, inorder_size);
 }
 
-int maxDepth(struct TreeNode *root)
+int main(void)
 {
-	return max_depth_rec(root);
+	struct TreeNode *root = get_tree();
+	print_tree_inorder(root);
+
+	printf("max depth: %d\n", maxDepth(root));
 }

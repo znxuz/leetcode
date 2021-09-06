@@ -1,6 +1,6 @@
 #include <string.h>
 
-int lengthOfLastWord(char *s)
+int lengthOfLastWord_solution(char *s)
 {
 	int len = strlen(s), word_len = 0;
 	while (len--) {

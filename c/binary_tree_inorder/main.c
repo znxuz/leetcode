@@ -1,49 +1,43 @@
-// https://leetcode.com/problems/binary-tree-inorder-traversal/submissions/
+#include "function.h"
+#include "../utils/array.h"
+#include <stdio.h>
 
-#include "main.h"
-
-//	while (current && !empty(stack)) {
-//		if (current) {
-//			stack.push(current);
-//			current = current->left;
-//		} else {
-//			current = stack.pop();
-//			printf(current->val);
-//			current = current->right;
-//		}
-//	}
-int *inorderTraversal(struct TreeNode *root, int *returnSize)
+static struct TreeNode *get_simple_tree()
 {
-	*returnSize = get_tree_size(root);
-	if (!*returnSize)
-		return 0;
+	struct TreeNode *root = get_node(1);
+	struct TreeNode *ret = root;
 
-	int *arr = malloc(sizeof *arr * *returnSize);
-	int index = 0;
+	root->left = get_node(2);
+	root->right = get_node(3);
+	root = root->left;
+	root->left = get_node(4);
+	root->right = get_node(5);
+	root = ret->right;
+	root->left = get_node(6);
+	root->right = get_node(7);
 
-	struct TreeNode *stack[*returnSize];
-	int top = -1;
-	struct TreeNode *current = root;
-
-	while (current || top != -1) {
-		if (current) {
-			stack[++top] = current;
-			current = current->left;
-		} else {
-			current = stack[top--];
-			*(arr + index++) = current->val;
-			current = current->right;
-		}
-	}
-
-	return arr;
+	return ret;
 }
 
-void inorderTraversal_rec(struct TreeNode *root, int *ret, int *index)
+static void iter_test(struct TreeNode *root)
 {
-	if (root->left)
-		inorderTraversal_rec(root->left, ret, index);
-	*(ret + (*index)++) = root->val;
-	if (root->right)
-		inorderTraversal_rec(root->right, ret, index);
+	int ret_size;
+	int *ret = inorderTraversal(root, &ret_size);
+	print_arr(ret, ret_size);
+}
+
+static void rec_test(struct TreeNode *root)
+{
+	int ret_size = get_tree_size(root);
+	int *ret = malloc(sizeof *ret * ret_size);
+	int index = 0;
+	inorderTraversal_rec(root, ret, &index);
+	print_arr(ret, ret_size);
+}
+
+int main(void)
+{
+	struct TreeNode *root = get_simple_tree();
+	iter_test(root);
+	rec_test(root);
 }
