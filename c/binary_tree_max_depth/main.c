@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 #include "function.h"
-#include "../binary_tree_inorder/function.c"
-#include "../utils/array.h"
 
 static struct TreeNode *get_tree(void)
 {

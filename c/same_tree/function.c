@@ -2,7 +2,7 @@
 
 #include <stdbool.h>
 #include <stdlib.h>
-#include "../utils/binary_tree.h"
+#include "../include/binary_tree.h"
 
 bool isSameTree(struct TreeNode* p, struct TreeNode* q)
 {

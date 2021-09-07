@@ -1,5 +1,4 @@
 #include "function.h"
-#include "../utils/array.h"
 #include <stdio.h>
 
 static struct TreeNode *get_simple_tree()

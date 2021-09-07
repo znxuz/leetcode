@@ -1,8 +1,4 @@
 #include "function.h"
-#include <stdio.h>
-#include "../binary_tree_inorder/function.c"
-#include "../utils/binary_tree.h"
-#include "../utils/array.h"
 
 int main(void)
 {

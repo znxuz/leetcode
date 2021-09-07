@@ -1,5 +1,5 @@
 #include <stdbool.h>
-#include "../utils/binary_tree.h"
+#include "../include/binary_tree.h"
 
 static bool check_symmetric_rec(struct TreeNode *left, struct TreeNode *right)
 {
