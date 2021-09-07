@@ -9,9 +9,6 @@ CFLAGS= -g -Wall -Wextra -Werror -Wno-unused-function -Wno-unused-parameter \
 SRC_DIR = balanced_tree
 SRC = $(wildcard $(SRC_DIR)/*.c)
 
-OBJ_DIR = $(SRC_DIR)
-OBJ = $(SRC:.c=.o)
-
 UTILS_DIR = include
 UTILS = $(wildcard $(UTILS_DIR)/*.c)
 
@@ -21,12 +18,8 @@ RM = rm -f
 
 all: $(NAME) c
 
-$(NAME): $(OBJ)
+$(NAME): $(SRC) $(UTILS)
 	$(CC) $(CFLAGS) $^ -o $@
-
-$(OBJ): $(SRC) $(UTILS)
-	// FIXME
-	$(CC) $(CFLAGS) -c $^ -o $@
 
 clean:
 	$(RM) $(OBJ)
