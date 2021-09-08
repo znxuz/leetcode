@@ -1,4 +1,4 @@
-#include "array.h"
+#include "../include/array.h"
 
 void print_arr(int *arr, int size)
 {

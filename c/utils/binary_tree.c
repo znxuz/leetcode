@@ -1,4 +1,4 @@
-#include "binary_tree.h"
+#include "../include/binary_tree.h"
 
 struct TreeNode *get_node(int val)
 {

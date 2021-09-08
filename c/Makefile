@@ -1,20 +1,20 @@
 SHELL = /bin/sh
 
-NAME = a.out
+NAME = $(SRC_DIR)/a.out
 
 CC = gcc
-CFLAGS= -g -Wall -Wextra -Werror -Wno-unused-function -Wno-unused-parameter \
-		-Wno-unused-variable
+CFLAGS= -g -Wall -Wextra -Werror -Iinclude -Wno-unused-function \
+		-Wno-unused-parameter -Wno-unused-variable
 
-SRC_DIR = balanced_tree
+SRC_DIR = pascals_triangle
 SRC = $(wildcard $(SRC_DIR)/*.c)
 
-UTILS_DIR = include
+UTILS_DIR = utils
 UTILS = $(wildcard $(UTILS_DIR)/*.c)
 
 RM = rm -f
 
-.PHONY: all fclean re c
+.PHONY: all fclean re c leak
 
 all: $(NAME) c
 
@@ -29,5 +29,8 @@ fclean: clean
 
 re: fclean all
 
-c:
+c: $(NAME)
 	./$(NAME)
+
+leak: $(NAME)
+	valgrind --leak-check=full $(NAME)
