@@ -1,16 +1,18 @@
 SHELL = /bin/sh
 
-NAME = $(SRC_DIR)/a.out
+NAME = a.out
 
 CC = gcc
 CFLAGS= -g -Wall -Wextra -Werror -Iinclude -Wno-unused-function \
 		-Wno-unused-parameter -Wno-unused-variable
 
-SRC_DIR = squares_of_sorted_array
+SRC_DIR = pascals_triangle_II
 SRC = $(wildcard $(SRC_DIR)/*.c)
 
 UTILS_DIR = utils
 UTILS = $(wildcard $(UTILS_DIR)/*.c)
+
+OBJ = $(SRC:.c=.o) $(UTILS:.c=.o) # $(patsubst %.c,%.o,$(SRC))
 
 RM = rm -f
 
@@ -18,8 +20,8 @@ RM = rm -f
 
 all: $(NAME) c
 
-$(NAME): $(SRC) $(UTILS)
-	$(CC) $(CFLAGS) $^ -o $@
+$(NAME): $(OBJ)
+	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 
 clean:
 	$(RM) $(OBJ)

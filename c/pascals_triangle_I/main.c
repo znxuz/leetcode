@@ -11,9 +11,6 @@ static void print_triangle(int **triangle, int row, int *col_sizes)
 	// }
 
 	// this shit was nasty to code && usable only if row <= 5
-	for (int i = 0; i < row * 2; i++)
-		printf("%d", i);
-	printf("\n");
 	for (int i = 0; i < row; i++) {
 		int col_index = 0;
 		for (int j = 0; j < row * 2; j++) {
@@ -35,7 +32,7 @@ static void print_triangle(int **triangle, int row, int *col_sizes)
 	}
 }
 
-static void free_triangle(int **triangle, int return_size)
+void free_triangle(int **triangle, int return_size)
 {
 	for (int i = 0; i < return_size; i++)
 		free(triangle[i]);
@@ -44,8 +41,8 @@ static void free_triangle(int **triangle, int return_size)
 
 int main(void)
 {
-	int row = 5, return_size, *return_col_size;
+	int row = 10, return_size, *return_col_size;
 	int **triangle = generate(row, &return_size, &return_col_size);
 	print_triangle(triangle, return_size, return_col_size);
-	free_triangle(triangle, return_size);
+	// free_triangle(triangle, return_size);
 }
