@@ -6,7 +6,7 @@ CC = gcc
 CFLAGS= -g -Wall -Wextra -Werror -Iinclude -Wno-unused-function \
 		-Wno-unused-parameter -Wno-unused-variable
 
-SRC_DIR = pascals_triangle_II
+SRC_DIR = single_number
 SRC = $(wildcard $(SRC_DIR)/*.c)
 
 UTILS_DIR = utils
