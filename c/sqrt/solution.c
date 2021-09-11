@@ -1,5 +1,4 @@
-// TODO what is this algorithm
-
+// what is this algorithm
 int ft_sqrt(int x)
 {
 	int low = 0;
