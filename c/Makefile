@@ -6,7 +6,7 @@ CC = gcc
 CFLAGS= -g -Wall -Wextra -Werror -Iinclude -Wno-unused-function \
 		-Wno-unused-parameter -Wno-unused-variable
 
-SRC_DIR = binary_tree_postorder
+SRC_DIR = intersection_linked_lists
 SRC = $(wildcard $(SRC_DIR)/*.c)
 
 UTILS_DIR = utils
@@ -35,4 +35,4 @@ c: $(NAME)
 	./$(NAME)
 
 leak: $(NAME)
-	valgrind --leak-check=full $(NAME)
+	valgrind --leak-check=full ./$(NAME)
