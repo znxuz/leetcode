@@ -2,13 +2,40 @@
 
 #include "function.h"
 
-static int *iter_one_stack(struct TreeNode *root, int *return_size)
+// using one stack
+int *iter_one_stack(struct TreeNode *root, int *return_size)
 {
-	// TODO
+	*return_size = get_tree_size(root);
+	int *postorder = malloc(sizeof *postorder * *return_size);
+	int index = 0;
+
+	if (*return_size) {
+		struct TreeNode *stack[*return_size];
+		int top = -1;
+		while (top != -1 || root) {
+			if (root) {
+				if (root->right)
+					stack[++top] = root->right;
+				stack[++top] = root;
+				root = root->left;
+			} else {
+				struct TreeNode *mid = stack[top--];
+				if (top != -1 && stack[top] == mid->right) {
+					root = stack[top--];
+					stack[++top] = mid;
+				} else {
+					*(postorder + index++) = mid->val;
+					root = NULL;
+				}
+			}
+		}
+	}
+
+	return postorder;
 }
 
 // using two stacks
-static int *postorderTraversal_iter(struct TreeNode *root, int *return_size)
+int *postorderTraversal_iter(struct TreeNode *root, int *return_size)
 {
 	*return_size = get_tree_size(root);
 	int *postorder = malloc(sizeof *postorder * *return_size);
