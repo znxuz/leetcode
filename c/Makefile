@@ -3,10 +3,12 @@ SHELL = /bin/sh
 NAME = a.out
 
 CC = gcc
-CFLAGS= -g -Wall -Wextra -Werror -Iinclude -Wno-unused-function \
+ERR_FLAGS = -Wall -Wextra -Werror
+ERR_FLAGS =
+CFLAGS= -g $(ERR_FLAGS) -lm -Iinclude -Wno-unused-function \
 		-Wno-unused-parameter -Wno-unused-variable
 
-SRC_DIR = intersection_linked_lists
+SRC_DIR = excel_column_title
 SRC = $(wildcard $(SRC_DIR)/*.c)
 
 UTILS_DIR = utils
