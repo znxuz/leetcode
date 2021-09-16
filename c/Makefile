@@ -1,32 +1,32 @@
 SHELL = /bin/sh
 
-NAME = a.out
+NAME := a.out
 
-CC = gcc
-ERR_FLAGS = -Wall -Wextra -Werror
-ERR_FLAGS =
-CFLAGS= -g $(ERR_FLAGS) -lm -Iinclude -Wno-unused-function \
+CC := gcc
+ERR_FLAGS := -Wall -Wextra -Werror
+# ERR_FLAGS =
+CFLAGS = -g $(ERR_FLAGS) -lm -Iinclude -Wno-unused-function \
 		-Wno-unused-parameter -Wno-unused-variable
 
-SRC_DIR = excel_column_title
-SRC = $(wildcard $(SRC_DIR)/*.c)
-
-UTILS_DIR = utils
-UTILS = $(wildcard $(UTILS_DIR)/*.c)
-
-OBJ = $(SRC:.c=.o) $(UTILS:.c=.o) # $(patsubst %.c,%.o,$(SRC))
-
 RM = rm -f
+
+src_dir = read_char_given_read4
+src = $(wildcard $(src_dir)/*.c)
+
+utils_dir = utils
+utils = $(wildcard $(utils_dir)/*.c)
+
+obj = $(src:.c=.o) $(utils:.c=.o) # $(patsubst %.c,%.o,$(src))
 
 .PHONY: all fclean re c leak
 
 all: $(NAME) c
 
-$(NAME): $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
+$(NAME): $(obj)
+	$(CC) $(CFLAGS) $(obj) -o $(NAME)
 
 clean:
-	$(RM) $(OBJ)
+	$(RM) $(obj)
 
 fclean: clean
 	$(RM) $(NAME)
