@@ -8,21 +8,21 @@ struct ListNode *get_list_node(int val)
 	return node;
 }
 
-void append_end(struct ListNode *head, struct ListNode *node)
+void append_end(struct ListNode **head, struct ListNode *node)
 {
-	if (!head)
-		head = node;
-	else if (!head->next)
-		head->next = node;
+	if (!*head)
+		*head = node;
+	else if (!(*head)->next)
+		(*head)->next = node;
 	else
-		append_end(head->next, node);
+		append_end(&(*head)->next, node);
 }
 
-void append_first(struct ListNode *head, struct ListNode *node)
+void append_first(struct ListNode **head, struct ListNode *node)
 {
-	if (head)
-		node->next = head;
-	head = node;
+	if (*head)
+		node->next = *head;
+	*head = node;
 }
 
 void print_list(struct ListNode *head)

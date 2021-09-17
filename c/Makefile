@@ -4,13 +4,13 @@ NAME := a.out
 
 CC := gcc
 ERR_FLAGS := -Wall -Wextra -Werror
-# ERR_FLAGS =
+ERR_FLAGS =
 CFLAGS = -g $(ERR_FLAGS) -lm -Iinclude -Wno-unused-function \
 		-Wno-unused-parameter -Wno-unused-variable
 
 RM = rm -f
 
-src_dir = read_char_given_read4
+src_dir = reverse_bits
 src = $(wildcard $(src_dir)/*.c)
 
 utils_dir = utils
