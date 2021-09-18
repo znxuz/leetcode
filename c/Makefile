@@ -10,7 +10,7 @@ CFLAGS = -g $(ERR_FLAGS) -lm -Iinclude -Wno-unused-function \
 
 RM = rm -f
 
-src_dir = reverse_bits
+src_dir = remove_element_linked_list
 src = $(wildcard $(src_dir)/*.c)
 
 utils_dir = utils
@@ -18,7 +18,7 @@ utils = $(wildcard $(utils_dir)/*.c)
 
 obj = $(src:.c=.o) $(utils:.c=.o) # $(patsubst %.c,%.o,$(src))
 
-.PHONY: all fclean re c leak
+.PHONY: all fclean re c leak reset
 
 all: $(NAME) c
 
@@ -38,3 +38,7 @@ c: $(NAME)
 
 leak: $(NAME)
 	valgrind --leak-check=full ./$(NAME)
+
+reset: fclean
+	@read -rep "new path: " var && sed -i "0,/\(src_dir = \).*/ s//\1$$var/" Makefile \
+		&& echo "src_dir => $$var"

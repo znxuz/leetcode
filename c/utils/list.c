@@ -29,9 +29,11 @@ void print_list(struct ListNode *head)
 {
 	if (!head)
 		return;
-	printf("%d\n", head->val);
+	printf("%d ", head->val);
 	if (head->next)
 		print_list(head->next);
+	else
+		printf("\n");
 }
 
 void free_list(struct ListNode *head)

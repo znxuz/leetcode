@@ -1,5 +1,6 @@
 #include "function.h"
 
+// floyd's cycle finding problem
 bool hasCycle(struct ListNode *head)
 {
 	struct ListNode *walker = head;
