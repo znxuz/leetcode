@@ -10,7 +10,7 @@ CFLAGS = -g $(ERR_FLAGS) -lm -Iinclude -Wno-unused-function \
 
 RM = rm -f
 
-src_dir = remove_element_linked_list
+src_dir = contain_duplicate_int_array
 src = $(wildcard $(src_dir)/*.c)
 
 utils_dir = utils

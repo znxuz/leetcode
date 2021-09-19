@@ -4,8 +4,15 @@
 
 struct ListNode *removeElements_rec(struct ListNode *head, int val)
 {
-	// TODO recursive
-	return 0;
+	if (!head)
+		return NULL;
+	head->next = removeElements_rec(head->next, val);
+	if (head->val == val) {
+		struct ListNode *next = head->next;
+		free(head);
+		return next;
+	}
+	return head;
 }
 
 struct ListNode *removeElements(struct ListNode *head, int val)

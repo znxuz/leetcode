@@ -6,12 +6,11 @@ int main(void)
 {
 	struct ListNode *begin = get_list_node(1);
 	append_end(&begin, get_list_node(2));
+	append_end(&begin, get_list_node(3));
 	append_end(&begin, get_list_node(4));
 	append_end(&begin, get_list_node(5));
-	append_end(&begin, get_list_node(7));
-	append_end(&begin, get_list_node(7));
 
 	print_list(begin);
-	removeElements(begin, 7);
+	begin = reverseList(begin);
 	print_list(begin);
 }
