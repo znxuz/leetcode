@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/binary-tree-postorder-traversal/submissions/
 
-#include "function.h"
+#include "solution.h"
 
 // using one stack
 int *iter_one_stack(struct TreeNode *root, int *return_size)

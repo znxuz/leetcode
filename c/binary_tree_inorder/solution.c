@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/binary-tree-inorder-traversal/submissions/
 
-#include "function.h"
+#include "solution.h"
 
 //	while (current && !empty(stack)) {
 //		if (current) {

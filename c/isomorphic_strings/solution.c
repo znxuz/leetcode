@@ -1,17 +1,25 @@
-#include <stdbool.h>
+// https://leetcode.com/problems/isomorphic-strings/
 
-// reduce time complexity by adding another array for t
+#include "function.h"
+
+// iterate every character of *s and store the correcponding
+// value inside a map array
+// try to find duplicates in every iteration
 bool isIsomorphic(char *s, char *t)
 {
-	char map_s[256] = {0};
-	char map_t[256] = {0};
+	char map[127];
+	for (int i = 0; i < 127; i++)
+		map[i] = '\0';
 
-	while (*s || *t) {
-		if ((map_s[*s] || map_t[*t])
-			&& (map_s[*s] != *t || map_t[*t] != *s))
+	while (*s && *t) {
+		int index = *s;
+		if (map[index] && map[index] != *t)
+			return false;
+		for (int i = 0; i < sizeof map; i++)
+			if (map[i] == *t && i != index)
 				return false;
-		map_s[*s] = *t;
-		map_t[*t] = *s;
+
+		map[index] = *t;
 		s++;
 		t++;
 	}

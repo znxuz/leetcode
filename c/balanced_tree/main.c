@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "function.h"
+#include "solution.h"
 
 static struct TreeNode *get_simple_tree()
 {

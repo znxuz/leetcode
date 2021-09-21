@@ -1,17 +1,23 @@
+// https://leetcode.com/problems/linked-list-cycle/
+
 #include "function.h"
 
-// floyd's cycle finding problem
 bool hasCycle(struct ListNode *head)
 {
-	struct ListNode *walker = head;
-	struct ListNode *runner = head;
+	if (!head)
+		return false;
 
-	while (walker && runner->next && runner->next->next) {
-		walker = walker->next;
-		runner = runner->next->next;
-		if (walker == runner)
+	struct ListNode *first = head;
+	while (head->next) {
+		if (head == head->next)
 			return true;
+		struct ListNode *ptr = first;
+		while (ptr != head) {
+			if (ptr == head->next)
+				return true;
+			ptr = ptr->next;
+		}
+		head = head->next;
 	}
-
 	return false;
 }

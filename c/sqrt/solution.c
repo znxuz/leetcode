@@ -1,20 +1,42 @@
-// what is this algorithm
-int ft_sqrt(int x)
+// https://leetcode.com/problems/sqrtx/
+
+#include <math.h>
+
+int mySqrt(int x)
 {
-	int low = 0;
-	int high = x;
-	int mid;
-	
+	int base;
+
 	if (x < 0)
-		return 0;
-	if (x <= 1)
-		return x;
-	while (high - low > 1) {
-		mid = low + (high - low) / 2;
-		if (mid > x / mid)
-			high = mid;
-		else if (mid <= x / mid)
-			low = mid;
+		return (0);
+	base = 0;
+	do {
+		if (base * base == x)
+			return base;
+	} while (++base < 46341 && base * base <= x);
+
+	return --base;
+}
+
+int ft_sqrt(int nb)
+{
+	int base;
+
+	if (nb < 0)
+		return (0);
+	base = 0;
+	while (base < 46341 && base * base <= nb)
+	{
+		if (base * base == nb)
+			return (base);
+		base++;
 	}
-	return low;
+	return --base;
+}
+
+#include <stdio.h>
+
+int main(void)
+{
+	for (int i = 0; i < 100; i++)
+		printf("i: %d, sqrt(i): %d\n", i, ft_sqrt(i));
 }

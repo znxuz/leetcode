@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/binary-search/
 
-#include "function.h"
+#include "solution.h"
 
 int search_rec(int *nums, int left, int right, int target)
 {

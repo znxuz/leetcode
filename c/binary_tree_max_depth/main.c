@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "function.h"
+#include "solution.h"
 
 static struct TreeNode *get_tree(void)
 {

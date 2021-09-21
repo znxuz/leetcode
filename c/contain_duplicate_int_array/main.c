@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "function.h"
+#include "solution.h"
 #include "../include/array.h"
 
 int main(void)

@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "function.h"
+#include "solution.h"
 #include "../include/array.h"
-#include "../binary_tree_inorder/function.c"
+#include "../binary_tree_inorder/solution.c"
 
 static struct TreeNode *get_simple_tree()
 {

@@ -1,4 +1,4 @@
-#include "function.h"
+#include "solution.h"
 #include <stdio.h>
 
 static struct TreeNode *get_simple_tree()

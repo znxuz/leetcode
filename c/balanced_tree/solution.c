@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/balanced-binary-tree/
 
-#include "function.h"
+#include "solution.h"
 
 static int max(int x, int y)
 {

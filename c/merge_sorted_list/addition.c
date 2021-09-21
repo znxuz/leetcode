@@ -1,6 +1,6 @@
 #include "function.h"
 
-struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2)
+struct ListNode* mergeTwoLists_solution(struct ListNode* l1, struct ListNode* l2)
 {
 	struct ListNode head;
 	struct ListNode *p_head = &head;

@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/contains-duplicate/
 
-#include "function.h"
+#include "solution.h"
 
 void merge(int *nums, int left, int mid, int right)
 {

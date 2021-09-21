@@ -1,25 +1,52 @@
-unsigned int table[90] = { // only need space till max ASCII value (X = 88)
-	['I'] = 1,
-	['V'] = 5,
-	['X'] = 10,
-	['L'] = 50,
-	['C'] = 100,
-	['D'] = 500,
-	['M'] = 1000
-};
+// https://leetcode.com/problems/roman-to-integer/
 
-int romanToInt_solution(char *str)
+#include "function.h"
+
+static int get_roman_val(char c)
 {
-	int res = 0;
-	char next;
-	while (*str) {
-		next = *(str + 1);
-		if (table[*str] < table[next])
-			res -= table[*str];
-		else
-			res += table[*str];
-		str++;
+	switch (c) {
+		case 'I':
+			return 1;
+		case 'V':
+			return 5;
+		case 'X':
+			return 10;
+		case 'L':
+			return 50;
+		case 'C':
+			return 100;
+		case 'D':
+			return 500;
+		case 'M':
+			return 1000;
+		default:
+			return 0;
+	}
+}
+
+static int check_substract(int first, int second)
+{
+	if ((first == 1 && (second == 5 || second == 10))
+			|| (first == 10 && (second == 50 || second == 100))
+			|| (first == 100 && (second == 500 || second == 1000)))
+		return 1;
+	return 0;
+}
+
+int romanToInt(char *str)
+{
+	int result = 0;
+	int len = strlen(str);
+
+	for (int i = 0; i < len; i++) {
+		int first = get_roman_val(*(str + i));
+		int second = i + 1 < len ?
+			check_substract(first, get_roman_val(*(str + i + 1))) ?
+			get_roman_val(*(str + ++i)) : 0 : 0;
+		if (second)
+			first = -first;
+		result += first + second;
 	}
 	
-	return res;
+	return result;
 }

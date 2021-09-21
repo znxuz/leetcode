@@ -9,7 +9,7 @@
  * };
  */
 
-#include "function.h"
+#include "solution.h"
 
 static int min(int x, int y)
 {

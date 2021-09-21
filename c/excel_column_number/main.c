@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 #include <math.h>
-#include "function.h"
+#include "solution.h"
 
 static void check(int num)
 {

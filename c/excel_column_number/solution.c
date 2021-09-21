@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/excel-sheet-column-title/
 
-#include "function.h"
+#include "solution.h"
 
 #define BASE 26
 #define EXPONENT_OFFSET 1

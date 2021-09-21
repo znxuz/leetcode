@@ -1,13 +1,18 @@
+// https://leetcode.com/problems/length-of-last-word/
+
 #include <string.h>
 
-int lengthOfLastWord_solution(char *s)
+int lengthOfLastWord(char *s)
 {
-	int len = strlen(s), word_len = 0;
-	while (len--) {
-		if (*(s + len) == ' ' && word_len)
-			break;
-		if (*(s + len) != ' ')
-			word_len++;
-	}
-	return word_len;
+	if (!s || !*s)
+		return 0;
+
+	char *ptr = s + strlen(s) - 1;
+	int len = 0;
+	while (ptr > s && *ptr == ' ')
+		ptr--;
+	while (ptr + len >= s && *(ptr + len) != ' ')
+		len--;
+
+	return -len;
 }
