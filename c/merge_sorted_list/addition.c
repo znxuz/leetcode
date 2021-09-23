@@ -1,4 +1,4 @@
-#include "function.h"
+#include "solution.h"
 
 struct ListNode* mergeTwoLists_solution(struct ListNode* l1, struct ListNode* l2)
 {
