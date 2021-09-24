@@ -1,7 +1,7 @@
 JC = javac
 JCOPT = -g
 
-src_dir = removeDuplicateSortedArray
+src_dir = strStr
 src = $(wildcard $(src_dir)/*.java)
 
 args =
