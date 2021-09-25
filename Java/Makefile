@@ -1,7 +1,7 @@
 JC = javac
 JCOPT = -g
 
-src_dir = strStr
+src_dir = plusOne
 src = $(wildcard $(src_dir)/*.java)
 
 args =
