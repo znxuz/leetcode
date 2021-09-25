@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/palindrome-number/
 
-package palindrome_number;
+package palindromeNumber;
 
 class Solution {
 

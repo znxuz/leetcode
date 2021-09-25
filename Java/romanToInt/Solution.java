@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/roman-to-integer/
 
-package roman_to_int;
+package romanToInt;
 
 import java.util.HashMap;
 import java.util.Map;

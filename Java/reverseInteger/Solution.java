@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/reverse-integer/
 
-package reverse_integer;
+package reverseInteger;
 
 class Solution {
 
