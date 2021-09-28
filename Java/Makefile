@@ -1,7 +1,7 @@
 JC = javac
 JCOPT = -g
 
-src_dir = climbingStairs
+src_dir = sameTree
 src = $(wildcard $(src_dir)/*.java)
 
 args =
