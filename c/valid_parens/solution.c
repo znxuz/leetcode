@@ -1,6 +1,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 
 bool isValid(char *s)
 {
@@ -30,9 +31,7 @@ bool isValid(char *s)
 	return true;
 }
 
-#include <stdio.h>
-int main(void)
+int main(int argc, char **argv)
 {
-	printf("%d\n", isValid("(())"));
-	printf("%d\n", isValid("[{}]()"));
+	printf("%s\n", isValid(*(argv + 1)) ? "true" : "false");
 }
