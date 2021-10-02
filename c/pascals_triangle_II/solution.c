@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/pascals-triangle-ii/
 
-#include "function.h"
+#include "solution.h"
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
