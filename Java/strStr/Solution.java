@@ -4,7 +4,7 @@ package strStr;
 
 class Solution {
 
-	// KMP algorithm
+	// TODO KMP-algorithm
 
 	// time complexity: O(n^2)
 	// spacecomplexity: O(1)
