@@ -1,5 +1,6 @@
 package utils;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class TrieNode {
@@ -14,24 +15,46 @@ public class TrieNode {
 		this.end = false;
 	}
 
-	public TrieNode(char c, boolean end) {
+	public TrieNode(char c) {
 		this();
 		this.c = c;
-		this.end = end;
 	}
 
-	public static void add(TrieNode trie, String s) {
+	public boolean containsSubstring(String word) {
+		var trie = this;
+		for (char c : word.toCharArray()) {
+			int idx = c - 'a';
+			if (trie.children[idx] == null)
+				return false;
+			trie = trie.children[idx];
+		}
+		return true;
+	}
+
+	public void add(String s) {
+		var trie = this;
 		for (int i = 0; i < s.length(); ++i) {
-			char cur = s.charAt(i);
-			if (trie.children[cur - 'a'] == null)
-				trie.children[cur - 'a'] = new TrieNode(cur, false);
+			int idx = s.charAt(i) - 'a';
+			if (trie.children[idx] == null)
+				trie.children[idx] = new TrieNode(s.charAt(i));
+			trie = trie.children[idx];
 			if (i == s.length() - 1)
-				trie.children[cur - 'a'].end = true;
-			trie = trie.children[cur - 'a'];
+				trie.end = true;
 		}
 	}
 
-	public static void getAllWords(TrieNode trie, List<String> list, String prev) {
+	public void add(List<String> list) {
+		list.forEach(s -> this.add(s));
+	}
+
+	public List<String> getAllWords() {
+		List<String> res = new ArrayList<>();
+
+		getAllWords(this, res, "");
+		return res;
+	}
+
+	private void getAllWords(TrieNode trie, List<String> list, String prev) {
 		if (Character.isLetter(trie.c))
 			prev += trie.c;
 		if (trie.end == true)
