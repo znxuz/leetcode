@@ -1,0 +1,6 @@
+*.o
+*.out
+*.a
+compile_flags.txt
+link
+makefile
