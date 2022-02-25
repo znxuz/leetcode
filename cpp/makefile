@@ -1,4 +1,4 @@
-SRC_DIR := countEqualAndDivisiblePairInAnArray
+SRC_DIR := sortEvenAndOddIndicesIndependently
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 

@@ -1,4 +1,4 @@
-SRC_DIR := countEqualAndDivisiblePairInAnArray
+SRC_DIR := sortEvenAndOddIndicesIndependently
 src := $(wildcard $(SRC_DIR)/*.java)
 utils := $(wildcard utils/*.java)
 BIN_DIR := bin
