@@ -1,4 +1,4 @@
-SRC_DIR := climbingStairs
+SRC_DIR := countEqualAndDivisiblePairInAnArray
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
