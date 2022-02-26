@@ -1,4 +1,4 @@
-SRC_DIR := countOperationsToObtainZero
+SRC_DIR := countIntegersWithEvenDigitSum
 src := $(wildcard $(SRC_DIR)/*.java)
 utils := $(wildcard utils/*.java)
 BIN_DIR := bin

@@ -1,4 +1,4 @@
-SRC_DIR := countOperationsToObtainZero
+SRC_DIR := countIntegersWithEvenDigitSum
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
