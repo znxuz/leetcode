@@ -1,4 +1,4 @@
-SRC_DIR := countIntegersWithEvenDigitSum
+SRC_DIR := addTwoNumbers
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
