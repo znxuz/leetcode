@@ -1,4 +1,4 @@
-SRC_DIR := addTwoNumbers
+SRC_DIR := longestSubstringWithoutRepeatingCharacters
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
