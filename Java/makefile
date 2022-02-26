@@ -1,4 +1,4 @@
-SRC_DIR := sortEvenAndOddIndicesIndependently
+SRC_DIR := countOperationsToObtainZero
 src := $(wildcard $(SRC_DIR)/*.java)
 utils := $(wildcard utils/*.java)
 BIN_DIR := bin

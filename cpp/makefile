@@ -1,4 +1,4 @@
-SRC_DIR := sortEvenAndOddIndicesIndependently
+SRC_DIR := countOperationsToObtainZero
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
