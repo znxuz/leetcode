@@ -1,4 +1,4 @@
-SRC_DIR := longestPalindromicSubstring
+SRC_DIR := zigzagConversion
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
