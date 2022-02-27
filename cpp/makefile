@@ -1,4 +1,4 @@
-SRC_DIR := longestSubstringWithoutRepeatingCharacters
+SRC_DIR := longestPalindromicSubstring
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
