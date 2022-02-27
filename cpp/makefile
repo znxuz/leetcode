@@ -1,4 +1,4 @@
-SRC_DIR := zigzagConversion
+SRC_DIR := reverseInteger
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
