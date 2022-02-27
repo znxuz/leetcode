@@ -1,4 +1,4 @@
-SRC_DIR := reverseInteger
+SRC_DIR := stringToIntegerAtoi
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
