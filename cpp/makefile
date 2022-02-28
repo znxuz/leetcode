@@ -1,4 +1,4 @@
-SRC_DIR := containerWithMostWater
+SRC_DIR := integerToRoman
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
