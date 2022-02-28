@@ -1,4 +1,4 @@
-SRC_DIR := stringToIntegerAtoi
+SRC_DIR := containerWithMostWater
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
