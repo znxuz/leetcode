@@ -1,4 +1,4 @@
-SRC_DIR := integerToRoman
+SRC_DIR := threeSum
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
