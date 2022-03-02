@@ -1,4 +1,4 @@
-SRC_DIR := threeSum
+SRC_DIR := threeSumClosest
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
@@ -10,7 +10,7 @@ utils_src := $(shell find $(UTILS_DIR) -type f -name "*cpp")
 utils_obj := $(utils_src:.cpp=.o)
 
 CC := g++
-CFLAGS := -x c++ -std=c++20 -g -I$(UTILS_DIR)
+CFLAGS := -x c++ -std=c++20 -I$(UTILS_DIR) $(DEBUG)
 ARGS :=
 
 all: run
@@ -19,6 +19,10 @@ run: generate_cc $(NAME)
 	./$(NAME) $(ARGS)
 
 rerun: fclean run
+
+debug: CFLAGS += -g -DDEBUG=1
+
+debug: fclean run
 
 $(NAME): $(utils_obj) $(obj)
 	$(CC) $(utils_obj) $(obj) -o $(NAME)
@@ -34,6 +38,7 @@ clean:
 
 fclean: clean
 	$(RM) $(NAME)
+	$(RM) $(utils_obj)
 
 generate_cc:
 	@echo $(CFLAGS) | sed 's/\s/\n/g' > compile_flags.txt
