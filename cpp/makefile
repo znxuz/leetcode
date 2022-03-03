@@ -1,4 +1,4 @@
-SRC_DIR := removeNthNodeFromEndOfList
+SRC_DIR := generateParentheses
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
