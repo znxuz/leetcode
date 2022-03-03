@@ -1,4 +1,4 @@
-SRC_DIR := fourSum
+SRC_DIR := removeNthNodeFromEndOfList
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
