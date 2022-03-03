@@ -1,4 +1,4 @@
-SRC_DIR := generateParentheses
+SRC_DIR := swapNodesInPairs
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
