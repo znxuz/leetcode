@@ -1,4 +1,4 @@
-SRC_DIR := letterCombinationsOfPhoneNumber
+SRC_DIR := fourSum
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
