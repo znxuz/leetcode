@@ -1,4 +1,4 @@
-SRC_DIR := swapNodesInPairs
+SRC_DIR := sqrt
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
