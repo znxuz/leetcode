@@ -1,4 +1,4 @@
-SRC_DIR := searchInRotatedSortedArray
+SRC_DIR := firstBadVersion
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
