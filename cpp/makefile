@@ -1,4 +1,4 @@
-SRC_DIR := sqrt
+SRC_DIR := searchInRotatedSortedArray
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
