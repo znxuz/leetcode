@@ -1,4 +1,4 @@
-SRC_DIR := findMinimumInRotatedSortedArray
+SRC_DIR := findFirstAndLastPositionOfElementInSortedArray
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
