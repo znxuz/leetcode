@@ -1,4 +1,4 @@
-SRC_DIR := findPeakElement
+SRC_DIR := findMinimumInRotatedSortedArray
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
