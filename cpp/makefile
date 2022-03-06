@@ -1,4 +1,4 @@
-SRC_DIR := firstBadVersion
+SRC_DIR := findPeakElement
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
