@@ -1,4 +1,4 @@
-SRC_DIR := findFirstAndLastPositionOfElementInSortedArray
+SRC_DIR := findKCloestElemnts
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
