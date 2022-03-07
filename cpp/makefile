@@ -1,4 +1,4 @@
-SRC_DIR := findKCloestElemnts
+SRC_DIR := removeDuplicatesFromSortedList
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
