@@ -1,4 +1,4 @@
-SRC_DIR := removeDuplicatesFromSortedList
+SRC_DIR := mergeSortedArray
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
