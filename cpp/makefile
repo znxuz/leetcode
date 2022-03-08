@@ -1,4 +1,4 @@
-SRC_DIR := mergeSortedArray
+SRC_DIR := validSudoku
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
