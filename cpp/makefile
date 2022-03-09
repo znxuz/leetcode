@@ -1,4 +1,4 @@
-SRC_DIR := validSudoku
+SRC_DIR := countAndSay
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
