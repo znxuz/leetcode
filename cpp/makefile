@@ -1,4 +1,4 @@
-SRC_DIR := sameTree
+SRC_DIR := symmetricTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
