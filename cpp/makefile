@@ -1,4 +1,4 @@
-SRC_DIR := symmetricTree
+SRC_DIR := maximumDepthOfBinaryTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
