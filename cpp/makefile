@@ -1,4 +1,4 @@
-SRC_DIR := binaryTreePreorderTraversal
+SRC_DIR := binaryTreePostorderTraversal
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
