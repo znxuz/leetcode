@@ -1,4 +1,4 @@
-SRC_DIR := countAndSay
+SRC_DIR := binaryTreePreorderTraversal
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
