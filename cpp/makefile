@@ -1,4 +1,4 @@
-SRC_DIR := maximumDepthOfBinaryTree
+SRC_DIR := pathSum
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
