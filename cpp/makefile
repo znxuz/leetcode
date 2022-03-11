@@ -1,4 +1,4 @@
-SRC_DIR := pathSum
+SRC_DIR := closestBinarySearchTreeValue
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
