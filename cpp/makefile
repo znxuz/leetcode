@@ -1,4 +1,4 @@
-SRC_DIR := closestBinarySearchTreeValue
+SRC_DIR := searchInASortedArrayOfUnknownSize
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
