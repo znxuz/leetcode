@@ -1,5 +1,4 @@
-#pragma ones
-
+#pragma once
 
 struct TreeNode
 {

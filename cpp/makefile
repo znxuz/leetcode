@@ -1,4 +1,4 @@
-SRC_DIR := convertSortedArrayToBinarySearchTree
+SRC_DIR := balancedBinaryTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
