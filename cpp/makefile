@@ -1,4 +1,4 @@
-SRC_DIR := searchInASortedArrayOfUnknownSize
+SRC_DIR := convertSortedArrayToBinarySearchTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
@@ -9,7 +9,7 @@ UTILS_DIR := utils
 utils_src := $(shell find $(UTILS_DIR) -type f -name "*cpp")
 utils_obj := $(utils_src:.cpp=.o)
 
-CC := g++
+CC := clang++
 CFLAGS := -x c++ -std=c++20 -I$(UTILS_DIR) $(DEBUG)
 ARGS :=
 
