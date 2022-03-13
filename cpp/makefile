@@ -1,4 +1,4 @@
-SRC_DIR := balancedBinaryTree
+SRC_DIR := minimumDepthOfBinaryTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
