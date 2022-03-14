@@ -1,4 +1,4 @@
-SRC_DIR := validPalindrome
+SRC_DIR := singleNumber
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
