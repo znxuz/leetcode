@@ -1,4 +1,4 @@
-SRC_DIR := singleNumber
+SRC_DIR := linkedListCycle
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
