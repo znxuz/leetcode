@@ -1,4 +1,4 @@
-SRC_DIR := pascalsTriangle
+SRC_DIR := pascalsTriangleII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
