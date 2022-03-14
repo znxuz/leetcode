@@ -1,4 +1,4 @@
-SRC_DIR := bestTimeToBuyAndSellStock
+SRC_DIR := validPalindrome
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
