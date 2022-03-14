@@ -1,4 +1,4 @@
-SRC_DIR := minimumDepthOfBinaryTree
+SRC_DIR := pascalsTriangle
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
@@ -10,7 +10,8 @@ utils_src := $(shell find $(UTILS_DIR) -type f -name "*cpp")
 utils_obj := $(utils_src:.cpp=.o)
 
 CC := clang++
-CFLAGS := -x c++ -std=c++20 -I$(UTILS_DIR) $(DEBUG)
+CFLAGS := -x c++ -std=c++20 -I$(UTILS_DIR) $(DEBUG) \
+		  -Wall -Wextra -Wpedantic -Wno-unused-parameter
 ARGS :=
 
 all: run

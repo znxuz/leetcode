@@ -1,9 +1,8 @@
-#include <vector>
 #include <iostream>
+#include <sstream>
 
-template<typename T> void v_print(const std::vector<T>& vec)
+template<typename iter> void iter_print(iter begin, iter end)
 {
-	for (std::size_t i = 0; i < vec.size(); ++i)
-		std::cout << vec.at(i) << ((i + 1 == vec.size()) ? "" : " ");
-	std::cout << '\n';
+	while (begin != end)
+		std:: cout << *begin++ << (begin == end ? "\n" : " ");
 }
