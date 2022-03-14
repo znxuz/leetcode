@@ -1,4 +1,4 @@
-SRC_DIR := pascalsTriangleII
+SRC_DIR := bestTimeToBuyAndSellStock
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
