@@ -1,4 +1,4 @@
-SRC_DIR := minStack
+SRC_DIR := readNCharactersGivenRead4
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
