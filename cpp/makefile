@@ -1,23 +1,27 @@
-SRC_DIR := linkedListCycle
+SRC_DIR := minStack
 BIN_DIR := bin
-NAME := $(BIN_DIR)/a.out
+NAME := ${BIN_DIR}/a.out
 
-src := $(shell find $(SRC_DIR) -type f -name "*cpp")
-obj := $(src:.cpp=.o)
+src := ${shell find ${SRC_DIR} -type f -name "*cpp"}
+obj := ${src:.cpp=.o}
 
 UTILS_DIR := utils
-utils_src := $(shell find $(UTILS_DIR) -type f -name "*cpp")
-utils_obj := $(utils_src:.cpp=.o)
+utils_src := ${shell find ${UTILS_DIR} -type f -name "*cpp"}
+utils_obj := ${utils_src:.cpp=.o}
 
 CC := clang++
-CFLAGS := -x c++ -std=c++20 -I$(UTILS_DIR) $(DEBUG) \
-		  -Wall -Wextra -Wpedantic -Wno-unused-parameter
+LANG := c++
+STD := c++20
+WARNINGS := -Wall -Wextra -Wpedantic -Weffc++ -Wsign-conversion \
+			-Wno-unused-parameter -Wno-unused-function -Wno-unused-variable
+CFLAGS := -x ${LANG} -std=${STD} ${WARNINGS} ${DEBUG} -I${UTILS_DIR}
+
 ARGS :=
 
 all: run
 
-run: generate_cc $(NAME)
-	./$(NAME) $(ARGS)
+run: generate_cc ${NAME}
+	./${NAME} ${ARGS}
 
 rerun: fclean run
 
@@ -25,24 +29,24 @@ debug: CFLAGS += -g -DDEBUG=1
 
 debug: fclean run
 
-$(NAME): $(utils_obj) $(obj)
-	$(CC) $(utils_obj) $(obj) -o $(NAME)
+${NAME}: ${utils_obj} ${obj}
+	${CC} ${utils_obj} ${obj} -o ${NAME}
 
 %.o: %.cpp
-	$(CC) $(CFLAGS) -c $^ -o $@
+	${CC} ${CFLAGS} -c $^ -o $@
 
-leak: $(NAME)
-	valgrind --leak-check=full $(NAME)
+leak: ${NAME}
+	valgrind --leak-check=full ${NAME}
 
 clean:
-	$(RM) $(obj)
+	${RM} ${obj}
 
 fclean: clean
-	$(RM) $(NAME)
-	$(RM) $(utils_obj)
+	${RM} ${NAME}
+	${RM} ${utils_obj}
 
 generate_cc:
-	@echo $(CFLAGS) | sed 's/\s/\n/g' > compile_flags.txt
+	@echo ${CFLAGS} | sed 's/\s/\n/g' > compile_flags.txt
 
 test:
-	@echo $(utils_obj)
+	@echo ${utils_obj}
