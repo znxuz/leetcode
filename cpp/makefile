@@ -1,4 +1,4 @@
-SRC_DIR := readNCharactersGivenRead4
+SRC_DIR := intersectionOfTwoLinkedLists
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
