@@ -1,4 +1,4 @@
-SRC_DIR := missingRanges
+SRC_DIR := majorityElement
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
