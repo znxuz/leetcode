@@ -1,4 +1,4 @@
-SRC_DIR := intersectionOfTwoLinkedLists
+SRC_DIR := missingRanges
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
