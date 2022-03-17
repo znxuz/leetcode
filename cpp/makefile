@@ -1,4 +1,4 @@
-SRC_DIR := happyNumber
+SRC_DIR := multiplyStrings
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
@@ -12,7 +12,7 @@ utils_obj := ${utils_src:.cpp=.o}
 CC := clang++
 LANG := c++
 STD := c++20
-WARNINGS := -Wall -Wextra -Wpedantic -Weffc++ -Wsign-conversion \
+WARNINGS := -Wall -Wextra -Wpedantic -Weffc++ \
 			-Wno-unused-parameter -Wno-unused-function -Wno-unused-variable
 CFLAGS := -x ${LANG} -std=${STD} ${WARNINGS} ${DEBUG} -I${UTILS_DIR}
 
