@@ -1,4 +1,4 @@
-SRC_DIR := twoSumIII
+SRC_DIR := reverseBits
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
