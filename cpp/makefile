@@ -1,4 +1,4 @@
-SRC_DIR := reverseBits
+SRC_DIR := happyNumber
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
