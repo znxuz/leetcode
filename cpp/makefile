@@ -1,4 +1,4 @@
-SRC_DIR := majorityElement
+SRC_DIR := twoSumIII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
