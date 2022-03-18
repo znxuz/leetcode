@@ -1,4 +1,4 @@
-SRC_DIR := rotateList
+SRC_DIR := groupAnagrams
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
