@@ -1,4 +1,4 @@
-SRC_DIR := groupAnagrams
+SRC_DIR := sortColors
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
