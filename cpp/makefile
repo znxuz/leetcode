@@ -1,4 +1,4 @@
-SRC_DIR := sortColors
+SRC_DIR := removeLinkedListElements
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
