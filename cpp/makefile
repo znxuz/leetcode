@@ -1,4 +1,4 @@
-SRC_DIR := removeLinkedListElements
+SRC_DIR := isomorphicStrings
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
