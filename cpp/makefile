@@ -1,4 +1,4 @@
-SRC_DIR := isomorphicStrings
+SRC_DIR := setMatrixZeros
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
