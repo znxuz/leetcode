@@ -1,4 +1,4 @@
-SRC_DIR := setMatrixZeros
+SRC_DIR := searchA2DMatrix
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
