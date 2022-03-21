@@ -1,4 +1,4 @@
-SRC_DIR := rotateImage
+SRC_DIR := spiralMatrix
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
