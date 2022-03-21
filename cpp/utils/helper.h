@@ -3,8 +3,11 @@
 #include <iostream>
 #include <sstream>
 
-template<typename iter> void iter_print(iter begin, iter end)
+namespace util
 {
-	while (begin != end)
-		std:: cout << *begin++ << (begin == end ? "\n" : " ");
-}
+	template<typename iter> void iter_print(iter begin, iter end)
+	{
+		while (begin != end)
+			std:: cout << *begin++ << (begin == end ? "\n" : " ");
+	}
+};
