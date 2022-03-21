@@ -1,4 +1,4 @@
-SRC_DIR := containsDuplicate
+SRC_DIR := containsDuplicateII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
