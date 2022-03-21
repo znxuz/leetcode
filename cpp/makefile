@@ -1,4 +1,4 @@
-SRC_DIR := searchA2DMatrix
+SRC_DIR := rotateImage
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
