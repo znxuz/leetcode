@@ -1,4 +1,4 @@
-SRC_DIR := reverseLinkedList
+SRC_DIR := containsDuplicate
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
