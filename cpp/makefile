@@ -1,4 +1,4 @@
-SRC_DIR := implementingStackUsingQueues
+SRC_DIR := invertBinaryTree
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
