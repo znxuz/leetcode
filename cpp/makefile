@@ -1,4 +1,4 @@
-SRC_DIR := invertBinaryTree
+SRC_DIR := summaryRanges
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
