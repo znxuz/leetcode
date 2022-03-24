@@ -1,4 +1,4 @@
-SRC_DIR := powerOfTwo
+SRC_DIR := implementingQueueUsingStacks
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
