@@ -3,3 +3,4 @@
 *.a
 compile_flags.txt
 link
+link_easy

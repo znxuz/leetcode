@@ -1,4 +1,4 @@
-SRC_DIR := insertInterval
+SRC_DIR := powerOfTwo
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
