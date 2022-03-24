@@ -1,4 +1,4 @@
-SRC_DIR := mergeIntervals
+SRC_DIR := insertInterval
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
@@ -14,13 +14,14 @@ LANG := c++
 STD := c++20
 WARNINGS := -Wall -Wextra -Wpedantic -Weffc++ \
 			-Wno-unused-parameter -Wno-unused-function
+SAN := -fsanitize=address,undefined
 CFLAGS := -x ${LANG} -std=${STD} ${WARNINGS} ${DEBUG} -I${UTILS_DIR}
 
 ARGS :=
 
 all: run
 
-run: generate_cc ${NAME}
+run: ${NAME}
 	./${NAME} ${ARGS}
 
 rerun: fclean run
@@ -30,7 +31,7 @@ debug: CFLAGS += -g -DDEBUG=1
 debug: fclean run
 
 ${NAME}: ${utils_obj} ${obj}
-	${CC} ${utils_obj} ${obj} -o ${NAME}
+	${CC} ${utils_obj} ${SAN} ${obj} -o ${NAME}
 
 %.o: %.cpp
 	${CC} ${CFLAGS} -c $^ -o $@
@@ -47,6 +48,3 @@ fclean: clean
 
 generate_cc:
 	@echo ${CFLAGS} | sed 's/\s/\n/g' > compile_flags.txt
-
-test:
-	@echo ${utils_obj}
