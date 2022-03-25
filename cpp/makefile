@@ -1,4 +1,4 @@
-SRC_DIR := implementingQueueUsingStacks
+SRC_DIR := palindromeLinkedList
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
