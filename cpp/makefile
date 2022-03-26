@@ -1,4 +1,4 @@
-SRC_DIR := lowestCommonAncestorOfBST
+SRC_DIR := combinationSumIII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
