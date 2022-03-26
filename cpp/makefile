@@ -1,4 +1,4 @@
-SRC_DIR := combinationSumIII
+SRC_DIR := combinationSum
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
