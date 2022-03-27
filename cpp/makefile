@@ -1,4 +1,4 @@
-SRC_DIR := combinationSum
+SRC_DIR := combinationSumII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
@@ -12,7 +12,7 @@ utils_obj := ${utils_src:.cpp=.o}
 CC := clang++
 LANG := c++
 STD := c++20
-WARNINGS := -Wall -Wextra -Wpedantic -Weffc++ \
+WARNINGS := -Wall -Wextra -Wpedantic -Weffc++ -Wconversion \
 			-Wno-unused-parameter -Wno-unused-function
 SAN := -fsanitize=address,undefined
 CFLAGS := -x ${LANG} -std=${STD} ${WARNINGS} ${DEBUG} -I${UTILS_DIR}
