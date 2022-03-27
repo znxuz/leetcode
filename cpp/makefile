@@ -1,4 +1,4 @@
-SRC_DIR := combinationSumII
+SRC_DIR := validAnagram
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
