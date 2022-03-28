@@ -1,4 +1,4 @@
-SRC_DIR := permutationsII
+SRC_DIR := meetingRooms
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
