@@ -1,4 +1,4 @@
-SRC_DIR := shortestWordDistance
+SRC_DIR := permutations
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
