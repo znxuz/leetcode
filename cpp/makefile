@@ -1,4 +1,4 @@
-SRC_DIR := combinations
+SRC_DIR := binaryTreePaths
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
