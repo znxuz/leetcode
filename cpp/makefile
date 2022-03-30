@@ -1,4 +1,4 @@
-SRC_DIR := jumpGame
+SRC_DIR := jumpGameII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
