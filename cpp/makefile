@@ -1,4 +1,4 @@
-SRC_DIR := minimumPathSum
+SRC_DIR := uniquePaths
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
