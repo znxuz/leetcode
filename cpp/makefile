@@ -1,4 +1,4 @@
-SRC_DIR := binaryTreePaths
+SRC_DIR := minimumPathSum
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
