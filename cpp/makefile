@@ -1,4 +1,4 @@
-SRC_DIR := wordPattern
+SRC_DIR := reverseVowelsOfAString
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
