@@ -1,4 +1,4 @@
-SRC_DIR := moveZeros
+SRC_DIR := reverseString
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
