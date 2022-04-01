@@ -1,4 +1,4 @@
-SRC_DIR := missingNumber
+SRC_DIR := uniquePathsII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
