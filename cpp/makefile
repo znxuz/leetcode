@@ -1,4 +1,4 @@
-SRC_DIR := reverseString
+SRC_DIR := wordPattern
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
