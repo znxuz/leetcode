@@ -1,4 +1,4 @@
-SRC_DIR := uniquePathsII
+SRC_DIR := moveZeros
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
