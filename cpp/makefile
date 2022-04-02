@@ -1,4 +1,4 @@
-SRC_DIR := movingAverageFromDataStream
+SRC_DIR := intersectionOfTwoArrays
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
