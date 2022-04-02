@@ -1,4 +1,4 @@
-SRC_DIR := reverseVowelsOfAString
+SRC_DIR := spiralMatrixII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
