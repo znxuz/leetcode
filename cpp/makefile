@@ -1,4 +1,4 @@
-SRC_DIR := spiralMatrixII
+SRC_DIR := simplifyPath
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
