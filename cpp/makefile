@@ -1,4 +1,4 @@
-SRC_DIR := simplifyPath
+SRC_DIR := movingAverageFromDataStream
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
