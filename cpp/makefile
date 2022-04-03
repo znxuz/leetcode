@@ -1,4 +1,4 @@
-SRC_DIR := subsets
+SRC_DIR := intersectionOfTwoArraysII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
