@@ -1,4 +1,4 @@
-SRC_DIR := intersectionOfTwoArraysII
+SRC_DIR := wordSearch
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
