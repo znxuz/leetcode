@@ -1,4 +1,4 @@
-SRC_DIR := sumOfLeftLeaves
+SRC_DIR := validWordAbbreviation
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
