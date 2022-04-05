@@ -1,4 +1,4 @@
-SRC_DIR := validWordAbbreviation
+SRC_DIR := longestPalindrome
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
