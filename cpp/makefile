@@ -1,4 +1,4 @@
-SRC_DIR := wordSearch
+SRC_DIR := removeDuplicatesFromSortedArrayII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
