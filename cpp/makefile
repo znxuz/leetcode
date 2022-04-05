@@ -1,4 +1,4 @@
-SRC_DIR := isSubsequence
+SRC_DIR := sumOfLeftLeaves
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
