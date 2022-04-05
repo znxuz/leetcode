@@ -1,4 +1,4 @@
-SRC_DIR := removeDuplicatesFromSortedArrayII
+SRC_DIR := isSubsequence
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
