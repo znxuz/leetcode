@@ -1,4 +1,4 @@
-SRC_DIR := thirdMaximumNumber
+SRC_DIR := searchInRotatedSortedArrayII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
