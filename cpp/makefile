@@ -1,4 +1,4 @@
-SRC_DIR := removeDuplicatesFromSortedListII
+SRC_DIR := addStrings
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
