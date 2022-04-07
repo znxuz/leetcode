@@ -1,4 +1,4 @@
-SRC_DIR := addStrings
+SRC_DIR := validWordSquare
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
