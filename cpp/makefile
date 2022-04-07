@@ -1,4 +1,4 @@
-SRC_DIR := searchInRotatedSortedArrayII
+SRC_DIR := removeDuplicatesFromSortedListII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
