@@ -1,4 +1,4 @@
-SRC_DIR := partitionList
+SRC_DIR := numberOfSegmentsInAString
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
