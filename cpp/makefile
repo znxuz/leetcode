@@ -1,4 +1,4 @@
-SRC_DIR := validWordSquare
+SRC_DIR := partitionList
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
