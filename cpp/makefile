@@ -1,4 +1,4 @@
-SRC_DIR := numberOfSegmentsInAString
+SRC_DIR := subsetsII
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
