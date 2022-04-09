@@ -1,4 +1,4 @@
-SRC_DIR := subsetsII
+SRC_DIR := decodeWays
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
