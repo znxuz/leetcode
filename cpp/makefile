@@ -1,4 +1,4 @@
-SRC_DIR := validPalindromeII
+SRC_DIR := baseballGame
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
