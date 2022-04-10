@@ -1,4 +1,4 @@
-SRC_DIR := baseballGame
+SRC_DIR := findAllNumbersDisappearedInAnArray
 BIN_DIR := bin
 NAME := ${BIN_DIR}/a.out
 
