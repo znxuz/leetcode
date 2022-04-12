@@ -1,4 +1,4 @@
-SRC_DIR := hammingDistance
+SRC_DIR := islandPerimeter
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
