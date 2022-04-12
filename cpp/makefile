@@ -1,4 +1,4 @@
-SRC_DIR := reverseLinkedListII
+SRC_DIR := hammingDistance
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
