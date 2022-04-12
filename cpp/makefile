@@ -1,4 +1,4 @@
-SRC_DIR := assignCookies
+SRC_DIR := gameOfLife
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
