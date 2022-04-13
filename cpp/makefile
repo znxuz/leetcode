@@ -1,4 +1,4 @@
-SRC_DIR := restoreIPAddresses
+SRC_DIR := braceExpansion
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
