@@ -1,4 +1,4 @@
-SRC_DIR := braceExpansion
+SRC_DIR := uniqueBinarySearchTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
