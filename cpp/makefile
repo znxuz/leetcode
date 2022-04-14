@@ -1,4 +1,4 @@
-SRC_DIR := uniqueBinarySearchTree
+SRC_DIR := licenseKeyFormatting
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
