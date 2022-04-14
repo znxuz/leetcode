@@ -1,4 +1,4 @@
-SRC_DIR := licenseKeyFormatting
+SRC_DIR := maxConsecutiveOnes
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
