@@ -1,4 +1,4 @@
-SRC_DIR := maxConsecutiveOnes
+SRC_DIR := trimBinarySearchTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
