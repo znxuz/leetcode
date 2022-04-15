@@ -1,4 +1,4 @@
-SRC_DIR := trimBinarySearchTree
+SRC_DIR := teemoAttacking
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
