@@ -1,4 +1,4 @@
-SRC_DIR := teemoAttacking
+SRC_DIR := nextGreaterElementI
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
