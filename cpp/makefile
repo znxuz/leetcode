@@ -1,4 +1,4 @@
-SRC_DIR := convertBSTToGreaterTree
+SRC_DIR := binarySearchTreeIterator
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
