@@ -1,4 +1,4 @@
-SRC_DIR := binarySearchTreeIterator
+SRC_DIR := increasingOrderSearchTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
