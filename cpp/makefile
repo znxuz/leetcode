@@ -1,4 +1,4 @@
-SRC_DIR := increasingOrderSearchTree
+SRC_DIR := interleavingString
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
