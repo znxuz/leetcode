@@ -1,4 +1,4 @@
-SRC_DIR := kthSmallestElementInABST
+SRC_DIR := validateBST
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
