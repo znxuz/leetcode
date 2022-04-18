@@ -1,4 +1,4 @@
-SRC_DIR := interleavingString
+SRC_DIR := kthSmallestElementInABST
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
