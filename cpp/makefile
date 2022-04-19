@@ -1,4 +1,4 @@
-SRC_DIR := recoverBST
+SRC_DIR := binaryTreeLevelOrderTraversal
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
