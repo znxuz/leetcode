@@ -1,4 +1,4 @@
-SRC_DIR := validateBST
+SRC_DIR := recoverBST
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
