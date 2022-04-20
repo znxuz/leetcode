@@ -1,4 +1,4 @@
-SRC_DIR := binaryTreeZigzagLevelOrderTraversal
+SRC_DIR := constructBinaryTreeFromPreorderAndInorderTraversal
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
