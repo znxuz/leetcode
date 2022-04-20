@@ -1,4 +1,4 @@
-SRC_DIR := binaryTreeLevelOrderTraversal
+SRC_DIR := binaryTreeZigzagLevelOrderTraversal
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
