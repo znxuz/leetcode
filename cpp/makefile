@@ -1,4 +1,4 @@
-SRC_DIR := designHashSet
+SRC_DIR := insertIntoABinarySearchTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
