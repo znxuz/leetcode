@@ -1,4 +1,4 @@
-SRC_DIR := constructBinaryTreeFromPreorderAndInorderTraversal
+SRC_DIR := designHashSet
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
