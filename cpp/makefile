@@ -1,4 +1,4 @@
-SRC_DIR := designHashMap
+SRC_DIR := constructBinaryTreeFromInorderAndPostorderTraversal
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
