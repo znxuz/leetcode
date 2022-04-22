@@ -1,4 +1,4 @@
-SRC_DIR := deleteNodeInABST
+SRC_DIR := designHashMap
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
