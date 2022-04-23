@@ -1,4 +1,4 @@
-SRC_DIR := binaryTreeLevelOrderTraversalII
+SRC_DIR := flattenBinaryTreeToLinkedList
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
