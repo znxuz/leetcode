@@ -1,4 +1,4 @@
-SRC_DIR := convertSortedListToBST
+SRC_DIR := keyboardRow
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
