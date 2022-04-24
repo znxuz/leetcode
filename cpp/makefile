@@ -1,4 +1,4 @@
-SRC_DIR := flattenBinaryTreeToLinkedList
+SRC_DIR := designUndergroundSystem
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
