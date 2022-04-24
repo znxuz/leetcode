@@ -1,4 +1,4 @@
-SRC_DIR := designUndergroundSystem
+SRC_DIR := convertSortedListToBST
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
