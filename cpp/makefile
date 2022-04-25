@@ -1,4 +1,4 @@
-SRC_DIR := findModeInBST
+SRC_DIR := pathSumII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
