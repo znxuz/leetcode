@@ -1,4 +1,4 @@
-SRC_DIR := keyboardRow
+SRC_DIR := findModeInBST
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
