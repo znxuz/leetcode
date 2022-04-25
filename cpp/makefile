@@ -1,4 +1,4 @@
-SRC_DIR := pathSumII
+SRC_DIR := relativeRanks
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
