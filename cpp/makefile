@@ -1,4 +1,4 @@
-SRC_DIR := detectCapital
+SRC_DIR := minimumAbsoluteDifferenceBST
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
