@@ -1,4 +1,4 @@
-SRC_DIR := relativeRanks
+SRC_DIR := populatingNextRightPointerInEachNode
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
