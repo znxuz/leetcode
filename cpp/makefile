@@ -1,4 +1,4 @@
-SRC_DIR := populatingNextRightPointerInEachNode
+SRC_DIR := detectCapital
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
