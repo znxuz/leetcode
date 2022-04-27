@@ -1,4 +1,4 @@
-SRC_DIR := diameterOfBinaryTree
+SRC_DIR := studentAttendanceRecordI
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
