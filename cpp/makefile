@@ -1,4 +1,4 @@
-SRC_DIR := studentAttendanceRecordI
+SRC_DIR := reverseWordsInStringIII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
