@@ -1,4 +1,4 @@
-SRC_DIR := binaryTreeTilt
+SRC_DIR := reshapeTheMatrix
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
