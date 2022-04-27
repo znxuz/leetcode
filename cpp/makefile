@@ -1,4 +1,4 @@
-SRC_DIR := reverseStringII
+SRC_DIR := diameterOfBinaryTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
