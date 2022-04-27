@@ -1,4 +1,4 @@
-SRC_DIR := subtreeOfAnotherTree
+SRC_DIR := distributeCandies
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
