@@ -1,4 +1,4 @@
-SRC_DIR := reshapeTheMatrix
+SRC_DIR := subtreeOfAnotherTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
