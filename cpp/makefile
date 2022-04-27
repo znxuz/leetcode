@@ -1,4 +1,4 @@
-SRC_DIR := minimumAbsoluteDifferenceBST
+SRC_DIR := reverseStringII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
