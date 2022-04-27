@@ -1,4 +1,4 @@
-SRC_DIR := reverseWordsInStringIII
+SRC_DIR := arrayPartitionI
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
