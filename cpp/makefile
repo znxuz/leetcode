@@ -1,4 +1,4 @@
-SRC_DIR := arrayPartitionI
+SRC_DIR := binaryTreeTilt
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
