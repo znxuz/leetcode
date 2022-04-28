@@ -1,4 +1,4 @@
-SRC_DIR := triangle
+SRC_DIR := longestHarmoniousSubsequence
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
