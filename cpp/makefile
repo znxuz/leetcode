@@ -1,4 +1,4 @@
-SRC_DIR := distributeCandies
+SRC_DIR := populatingNextRightPointerInEachNodeII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
