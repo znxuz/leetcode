@@ -1,4 +1,4 @@
-SRC_DIR := longestHarmoniousSubsequence
+SRC_DIR := rangeAddition
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
