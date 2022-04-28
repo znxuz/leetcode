@@ -1,4 +1,4 @@
-SRC_DIR := populatingNextRightPointerInEachNodeII
+SRC_DIR := triangle
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
