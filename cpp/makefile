@@ -1,4 +1,4 @@
-SRC_DIR := mergeTwoBinaryTrees
+SRC_DIR := maximumProductOfThreeNumbers
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
