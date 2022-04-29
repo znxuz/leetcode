@@ -1,4 +1,4 @@
-SRC_DIR := canPlaceFlowers
+SRC_DIR := constructStringFromBinaryTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
