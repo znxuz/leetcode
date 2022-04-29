@@ -1,4 +1,4 @@
-SRC_DIR := longestConsecutiveSequence
+SRC_DIR := minimumIndexSumOfTwoLists
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
