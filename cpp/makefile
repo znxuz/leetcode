@@ -1,4 +1,4 @@
-SRC_DIR := minimumIndexSumOfTwoLists
+SRC_DIR := canPlaceFlowers
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
