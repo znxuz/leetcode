@@ -1,4 +1,4 @@
-SRC_DIR := constructStringFromBinaryTree
+SRC_DIR := mergeTwoBinaryTrees
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
