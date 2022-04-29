@@ -1,4 +1,4 @@
-SRC_DIR := rangeAddition
+SRC_DIR := bestTimeToBuyAndSellStockII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
