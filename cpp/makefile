@@ -1,4 +1,4 @@
-SRC_DIR := maximumProductOfThreeNumbers
+SRC_DIR := averageOfLevelsInBinaryTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
