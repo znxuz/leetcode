@@ -1,4 +1,4 @@
-SRC_DIR := averageOfLevelsInBinaryTree
+SRC_DIR := sumRootToLeafNumbers
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
