@@ -1,4 +1,4 @@
-SRC_DIR := sumRootToLeafNumbers
+SRC_DIR := maximumAverageSubarrayI
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
