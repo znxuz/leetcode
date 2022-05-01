@@ -1,4 +1,4 @@
-SRC_DIR := backspaceStringCompare
+SRC_DIR := surroundingRegions
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
