@@ -1,4 +1,4 @@
-SRC_DIR := maximumAverageSubarrayI
+SRC_DIR := backspaceStringCompare
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
