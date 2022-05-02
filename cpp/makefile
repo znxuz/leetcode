@@ -1,4 +1,4 @@
-SRC_DIR := surroundingRegions
+SRC_DIR := sortArrayByParity
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
