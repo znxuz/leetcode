@@ -1,4 +1,4 @@
-SRC_DIR := sortArrayByParity
+SRC_DIR := palindromePartitioning
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
