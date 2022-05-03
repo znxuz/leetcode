@@ -1,4 +1,4 @@
-SRC_DIR := palindromePartitioning
+SRC_DIR := shortestUnsortedContinuousSubarray
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
