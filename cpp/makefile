@@ -1,4 +1,4 @@
-SRC_DIR := shortestUnsortedContinuousSubarray
+SRC_DIR := cloneGraph
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
