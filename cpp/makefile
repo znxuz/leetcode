@@ -1,4 +1,4 @@
-SRC_DIR := cloneGraph
+SRC_DIR := maxNumberOfKSumPairs
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
