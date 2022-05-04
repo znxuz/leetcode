@@ -1,4 +1,4 @@
-SRC_DIR := maxNumberOfKSumPairs
+SRC_DIR := setMismatch
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
