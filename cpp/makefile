@@ -1,4 +1,4 @@
-SRC_DIR := imageSmoother
+SRC_DIR := secondMinimumNodeInBinaryTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
