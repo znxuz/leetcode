@@ -1,4 +1,4 @@
-SRC_DIR := gasStation
+SRC_DIR := copyListWithRandomPointer
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
