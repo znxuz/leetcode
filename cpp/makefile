@@ -1,4 +1,4 @@
-SRC_DIR := copyListWithRandomPointer
+SRC_DIR := twoSumIV
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
