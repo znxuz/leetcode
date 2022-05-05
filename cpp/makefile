@@ -1,4 +1,4 @@
-SRC_DIR := twoSumIV
+SRC_DIR := imageSmoother
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
