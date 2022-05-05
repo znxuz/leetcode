@@ -1,4 +1,4 @@
-SRC_DIR := secondMinimumNodeInBinaryTree
+SRC_DIR := longestContinuousIncreasingSubsequence
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
