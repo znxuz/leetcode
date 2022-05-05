@@ -1,4 +1,4 @@
-SRC_DIR := setMismatch
+SRC_DIR := gasStation
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
