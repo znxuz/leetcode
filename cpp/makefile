@@ -1,4 +1,4 @@
-SRC_DIR := longestContinuousIncreasingSubsequence
+SRC_DIR := removeAllAdjacentDuplicatesInStringII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
