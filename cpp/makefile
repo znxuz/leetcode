@@ -1,4 +1,4 @@
-SRC_DIR := linkedListCycleII
+SRC_DIR := degreeOfAnArray
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
