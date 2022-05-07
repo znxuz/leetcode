@@ -1,4 +1,4 @@
-SRC_DIR := countBinarySubstrings
+SRC_DIR := 132Pattern
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
