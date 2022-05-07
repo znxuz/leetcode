@@ -1,4 +1,4 @@
-SRC_DIR := 132Pattern
+SRC_DIR := linkedListCycleII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
