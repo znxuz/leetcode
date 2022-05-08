@@ -1,4 +1,4 @@
-SRC_DIR := maxStack
+SRC_DIR := 1bitAnd2bitCharacters
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
