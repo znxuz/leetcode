@@ -1,4 +1,4 @@
-SRC_DIR := degreeOfAnArray
+SRC_DIR := flattenNestedListIterator
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
