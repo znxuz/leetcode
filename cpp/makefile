@@ -1,4 +1,4 @@
-SRC_DIR := reorderList
+SRC_DIR := maxStack
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
