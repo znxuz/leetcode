@@ -1,4 +1,4 @@
-SRC_DIR := flattenNestedListIterator
+SRC_DIR := reorderList
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 

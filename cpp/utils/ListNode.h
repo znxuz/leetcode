@@ -33,7 +33,7 @@ namespace util
 	    delete std::exchange(list, list->next);
     }
 
-    inline ListNode* get_list(const std::vector<int>& vec)
+    inline ListNode* make_list(const std::vector<int>& vec)
     {
 	ListNode* head = nullptr;
 	ListNode* it = nullptr;
