@@ -1,4 +1,4 @@
-SRC_DIR := 1bitAnd2bitCharacters
+SRC_DIR := lruCache
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
