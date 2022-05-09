@@ -1,4 +1,4 @@
-SRC_DIR := lruCache
+SRC_DIR := findPivotIndex
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
