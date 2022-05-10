@@ -1,4 +1,4 @@
-SRC_DIR := findPivotIndex
+SRC_DIR := insertionSortList
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
