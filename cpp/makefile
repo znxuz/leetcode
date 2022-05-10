@@ -1,4 +1,4 @@
-SRC_DIR := floodFill
+SRC_DIR := sentenceSimilarity
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
