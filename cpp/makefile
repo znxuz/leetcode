@@ -1,4 +1,4 @@
-SRC_DIR := insertionSortList
+SRC_DIR := floodFill
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
