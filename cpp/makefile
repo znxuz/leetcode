@@ -1,4 +1,4 @@
-SRC_DIR := evaluateReversePolishNotation
+SRC_DIR := reverseWordsInString
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
