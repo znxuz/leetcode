@@ -1,4 +1,4 @@
-SRC_DIR := sentenceSimilarity
+SRC_DIR := evaluateReversePolishNotation
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
