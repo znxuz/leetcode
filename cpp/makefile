@@ -1,4 +1,4 @@
-SRC_DIR := reverseWordsInString
+SRC_DIR := maximumProductSubarray
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
