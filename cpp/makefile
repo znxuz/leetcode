@@ -1,4 +1,4 @@
-SRC_DIR := maximumProductSubarray
+SRC_DIR := findSmallestLetterGreaterThanTarget
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
