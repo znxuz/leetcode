@@ -1,4 +1,4 @@
-SRC_DIR := shortestCompletingWord
+SRC_DIR := findAnagramMappings
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
