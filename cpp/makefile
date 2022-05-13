@@ -1,4 +1,4 @@
-SRC_DIR := largestNumberAtLeastTwiceOfOthers
+SRC_DIR := shortestCompletingWord
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
