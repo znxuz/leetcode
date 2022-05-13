@@ -1,4 +1,4 @@
-SRC_DIR := findSmallestLetterGreaterThanTarget
+SRC_DIR := minCostClimbingStairs
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
