@@ -1,4 +1,4 @@
-SRC_DIR := minCostClimbingStairs
+SRC_DIR := largestNumberAtLeastTwiceOfOthers
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
