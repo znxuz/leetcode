@@ -1,4 +1,4 @@
-SRC_DIR := deepestLeavesSum
+SRC_DIR := primeNumberOfSetBitsInBinaryRepresentation
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
