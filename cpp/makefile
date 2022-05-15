@@ -1,4 +1,4 @@
-SRC_DIR := binaryTreeUpsideDown
+SRC_DIR := deepestLeavesSum
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
