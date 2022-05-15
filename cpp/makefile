@@ -1,4 +1,4 @@
-SRC_DIR := findAnagramMappings
+SRC_DIR := longestSubstringWithAtMostTwoDistinctCharacters
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
