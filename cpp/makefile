@@ -1,4 +1,4 @@
-SRC_DIR := longestSubstringWithAtMostTwoDistinctCharacters
+SRC_DIR := binaryTreeUpsideDown
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
