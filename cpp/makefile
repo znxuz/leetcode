@@ -1,4 +1,4 @@
-SRC_DIR := primeNumberOfSetBitsInBinaryRepresentation
+SRC_DIR := maximumDepthOfNaryTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
