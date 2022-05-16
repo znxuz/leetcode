@@ -1,4 +1,4 @@
-SRC_DIR := maximumDepthOfNaryTree
+SRC_DIR := designCircularQueue
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
