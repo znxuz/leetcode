@@ -1,4 +1,4 @@
-SRC_DIR := wallsAndGates
+SRC_DIR := numberOfIslands
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
