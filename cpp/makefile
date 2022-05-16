@@ -1,4 +1,4 @@
-SRC_DIR := designCircularQueue
+SRC_DIR := wallsAndGates
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
