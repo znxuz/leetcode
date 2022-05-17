@@ -1,4 +1,4 @@
-SRC_DIR := numberOfIslands
+SRC_DIR := findACorrespondingNodeOfABinaryTreeInACloneOfThatTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
