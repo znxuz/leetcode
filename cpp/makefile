@@ -1,4 +1,4 @@
-SRC_DIR := findACorrespondingNodeOfABinaryTreeInACloneOfThatTree
+SRC_DIR := openTheLock
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
