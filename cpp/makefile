@@ -1,4 +1,4 @@
-SRC_DIR := naryTreePostorderTraversal
+SRC_DIR := toeplitzMatrix
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
