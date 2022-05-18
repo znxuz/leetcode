@@ -1,4 +1,4 @@
-SRC_DIR := perfectSquares
+SRC_DIR := naryTreePreorderTraversal
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
