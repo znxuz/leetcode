@@ -4,7 +4,7 @@
 
 namespace util
 {
-    template<typename container> void output_container(const container& c)
+    template<typename container> void print_container(const container& c)
     {
 	auto b = begin(c);
 	auto e = end(c);

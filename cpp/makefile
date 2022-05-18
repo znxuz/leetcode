@@ -1,4 +1,4 @@
-SRC_DIR := openTheLock
+SRC_DIR := perfectSquares
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
