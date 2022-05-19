@@ -1,4 +1,4 @@
-SRC_DIR := toeplitzMatrix
+SRC_DIR := dailyTemperatures
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
