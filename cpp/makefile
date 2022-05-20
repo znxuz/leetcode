@@ -1,4 +1,4 @@
-SRC_DIR := targetSum
+SRC_DIR := decodeString
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
