@@ -1,4 +1,4 @@
-SRC_DIR := decodeString
+SRC_DIR := 01Matrix
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
