@@ -1,4 +1,4 @@
-SRC_DIR := dailyTemperatures
+SRC_DIR := targetSum
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
