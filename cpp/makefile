@@ -1,4 +1,4 @@
-SRC_DIR := coinChange
+SRC_DIR := keysAndRooms
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
