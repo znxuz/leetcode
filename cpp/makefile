@@ -1,4 +1,4 @@
-SRC_DIR := 01Matrix
+SRC_DIR := coinChange
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
@@ -24,7 +24,7 @@ all: run
 run: $(NAME)
 	./$(NAME) $(ARGS)
 
-rerun: fclean run
+re: fclean run
 
 debug: CFLAGS += -g -DDEBUG=1 -O0
 
