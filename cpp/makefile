@@ -1,4 +1,4 @@
-SRC_DIR := jewelsAndStones
+SRC_DIR := kthLargestElementInStream
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
