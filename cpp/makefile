@@ -1,4 +1,4 @@
-SRC_DIR := keysAndRooms
+SRC_DIR := jewelsAndStones
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
