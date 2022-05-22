@@ -1,4 +1,4 @@
-SRC_DIR := kthLargestElementInStream
+SRC_DIR := minimumDistanceBetweenBSTNodes
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
