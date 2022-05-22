@@ -1,4 +1,4 @@
-SRC_DIR := minimumDistanceBetweenBSTNodes
+SRC_DIR := rotateString
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
