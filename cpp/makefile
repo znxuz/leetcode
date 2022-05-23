@@ -1,4 +1,4 @@
-SRC_DIR := powx_n
+SRC_DIR := validPerfectSquare
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
