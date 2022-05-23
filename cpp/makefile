@@ -1,4 +1,4 @@
-SRC_DIR := rotateString
+SRC_DIR := powx_n
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
