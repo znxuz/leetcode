@@ -1,4 +1,4 @@
-SRC_DIR := oneEditDistance
+SRC_DIR := compareVersionNumbers
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
