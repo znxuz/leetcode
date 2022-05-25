@@ -1,4 +1,4 @@
-SRC_DIR := compareVersionNumbers
+SRC_DIR := reverseWordsInStringII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
