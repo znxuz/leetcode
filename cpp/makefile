@@ -1,4 +1,4 @@
-SRC_DIR := reverseWordsInStringII
+SRC_DIR := repeatedDNASequences
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
