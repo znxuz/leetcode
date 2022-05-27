@@ -1,4 +1,4 @@
-SRC_DIR := mostCommonWord
+SRC_DIR := shortestDistanceToACharacter
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
