@@ -1,4 +1,4 @@
-SRC_DIR := repeatedDNASequences
+SRC_DIR := rotateArray
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
