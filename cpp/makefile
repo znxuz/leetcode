@@ -1,4 +1,4 @@
-SRC_DIR := rotateArray
+SRC_DIR := mostCommonWord
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
