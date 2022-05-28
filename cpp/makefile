@@ -1,4 +1,4 @@
-SRC_DIR := houseRobber
+SRC_DIR := binaryTreeRightSideView
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
