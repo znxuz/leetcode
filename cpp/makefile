@@ -1,4 +1,4 @@
-SRC_DIR := shortestDistanceToACharacter
+SRC_DIR := houseRobber
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
