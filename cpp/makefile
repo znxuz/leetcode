@@ -1,4 +1,4 @@
-SRC_DIR := maximumProductOfWordLengths
+SRC_DIR := bitwiseANDOfNumbersRange
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
