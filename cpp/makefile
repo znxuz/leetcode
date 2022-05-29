@@ -1,4 +1,4 @@
-SRC_DIR := binaryTreeRightSideView
+SRC_DIR := maximumProductOfWordLengths
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
