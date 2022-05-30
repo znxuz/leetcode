@@ -1,4 +1,4 @@
-SRC_DIR := bitwiseANDOfNumbersRange
+SRC_DIR := goatLatin
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
