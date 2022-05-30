@@ -1,4 +1,4 @@
-SRC_DIR := goatLatin
+SRC_DIR := positionsOfLargeGroups
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
