@@ -1,4 +1,4 @@
-SRC_DIR := positionsOfLargeGroups
+SRC_DIR := flippingAnImage
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
