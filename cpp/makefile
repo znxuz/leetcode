@@ -1,4 +1,4 @@
-SRC_DIR := checkIfAStringContainsAllBinaryCodesOfSizeK
+SRC_DIR := implementTrie
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
