@@ -1,4 +1,4 @@
-SRC_DIR := flippingAnImage
+SRC_DIR := checkIfAStringContainsAllBinaryCodesOfSizeK
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
