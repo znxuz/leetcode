@@ -1,4 +1,4 @@
-SRC_DIR := implementTrie
+SRC_DIR := minimumSizeSubarraySum
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
