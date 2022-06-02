@@ -1,4 +1,4 @@
-SRC_DIR := transposeMatrix
+SRC_DIR := designAddAndSearchWordsDataStructure
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
