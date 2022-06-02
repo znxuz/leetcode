@@ -1,4 +1,4 @@
-SRC_DIR := minimumSizeSubarraySum
+SRC_DIR := transposeMatrix
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
