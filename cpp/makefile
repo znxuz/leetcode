@@ -1,4 +1,4 @@
-SRC_DIR := rangeSumQuery2D
+SRC_DIR := houseRobberII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
