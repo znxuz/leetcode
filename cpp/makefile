@@ -1,4 +1,4 @@
-SRC_DIR := designAddAndSearchWordsDataStructure
+SRC_DIR := rangeSumQuery2D
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
