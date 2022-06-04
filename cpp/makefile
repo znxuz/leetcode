@@ -1,4 +1,4 @@
-SRC_DIR := houseRobberII
+SRC_DIR := kthLargestElementInAnArray
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
