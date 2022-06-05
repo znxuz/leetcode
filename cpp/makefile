@@ -1,4 +1,4 @@
-SRC_DIR := middleOfTheLinkedList
+SRC_DIR := monotonicArray
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
