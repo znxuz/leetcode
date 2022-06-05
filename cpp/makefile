@@ -1,4 +1,4 @@
-SRC_DIR := kthLargestElementInAnArray
+SRC_DIR := containsDuplicateIII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
