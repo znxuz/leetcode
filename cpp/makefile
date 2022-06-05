@@ -1,4 +1,4 @@
-SRC_DIR := binaryGap
+SRC_DIR := leafSimilarTrees
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
