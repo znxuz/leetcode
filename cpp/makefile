@@ -1,4 +1,4 @@
-SRC_DIR := containsDuplicateIII
+SRC_DIR := binaryGap
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
