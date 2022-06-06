@@ -1,4 +1,4 @@
-SRC_DIR := monotonicArray
+SRC_DIR := maximalSquare
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
