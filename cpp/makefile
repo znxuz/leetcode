@@ -1,4 +1,4 @@
-SRC_DIR := maximalSquare
+SRC_DIR := countCompleteTreeNodes
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
