@@ -1,4 +1,4 @@
-SRC_DIR := majorityElementII
+SRC_DIR := lowestCommonAncestorOfABinaryTree
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
