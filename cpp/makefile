@@ -1,4 +1,4 @@
-SRC_DIR := countCompleteTreeNodes
+SRC_DIR := majorityElementII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
