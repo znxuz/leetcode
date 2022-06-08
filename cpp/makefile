@@ -1,4 +1,4 @@
-SRC_DIR := lowestCommonAncestorOfABinaryTree
+SRC_DIR := removePalindromicSubsequences
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
