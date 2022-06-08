@@ -1,4 +1,4 @@
-SRC_DIR := removePalindromicSubsequences
+SRC_DIR := productOfArrayExceptSelf
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
