@@ -1,4 +1,4 @@
-SRC_DIR := xOfAKindInADeckOfCards
+SRC_DIR := reverseOnlyLetters
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
