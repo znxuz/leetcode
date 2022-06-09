@@ -1,4 +1,4 @@
-SRC_DIR := twoSumII
+SRC_DIR := searchA2DMatrixII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
