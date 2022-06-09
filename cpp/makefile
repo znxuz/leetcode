@@ -1,4 +1,4 @@
-SRC_DIR := smallestRangeI
+SRC_DIR := xOfAKindInADeckOfCards
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
