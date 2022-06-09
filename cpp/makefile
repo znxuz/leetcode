@@ -1,4 +1,4 @@
-SRC_DIR := productOfArrayExceptSelf
+SRC_DIR := twoSumII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
