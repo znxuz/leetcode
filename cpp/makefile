@@ -1,4 +1,4 @@
-SRC_DIR := searchA2DMatrixII
+SRC_DIR := smallestRangeI
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
@@ -19,16 +19,16 @@ CFLAGS := -x $(LANG) -std=$(STD) $(WARNINGS) $(DEBUG) -I$(UTILS_DIR)
 
 ARGS :=
 
-all: run
+all: compile
 
-run: $(NAME)
+run: compile
 	./$(NAME) $(ARGS)
 
-re: fclean run
+compile: $(NAME)
 
 debug: CFLAGS += -g -DDEBUG=1 -O0
 
-debug: fclean run
+debug: fclean compile
 
 $(NAME): $(utils_obj) $(obj)
 	$(CC) $(utils_obj) $(SAN) $(obj) -o $(NAME)
