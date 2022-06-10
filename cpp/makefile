@@ -1,4 +1,4 @@
-SRC_DIR := reverseOnlyLetters
+SRC_DIR := shortestWordDistanceII
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
