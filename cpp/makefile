@@ -1,4 +1,5 @@
-SRC_DIR := maximumSizeSubarraySumEqualsK
+SRC_DIR := minimumOperationsToReduceXToZero
+
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
