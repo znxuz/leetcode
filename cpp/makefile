@@ -1,4 +1,4 @@
-SRC_DIR := shortestWordDistanceII
+SRC_DIR := maximumSizeSubarraySumEqualsK
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
 
