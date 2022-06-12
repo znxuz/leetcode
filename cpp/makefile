@@ -1,4 +1,4 @@
-SRC_DIR := maximumErasureValue
+SRC_DIR := shortestWordDistanceIII
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
