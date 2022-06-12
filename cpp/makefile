@@ -1,4 +1,4 @@
-SRC_DIR := minimumOperationsToReduceXToZero
+SRC_DIR := maximumErasureValue
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
