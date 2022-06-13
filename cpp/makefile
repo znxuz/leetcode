@@ -1,4 +1,4 @@
-SRC_DIR := shortestWordDistanceIII
+SRC_DIR := groupShiftedStrings
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
