@@ -7,6 +7,9 @@
 #include <unordered_set>
 #include <unordered_map>
 
+#include "TreeNode.h"
+#include "ListNode.h"
+
 namespace util
 {
     template<typename container> void print_container(const container& c)

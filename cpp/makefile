@@ -1,4 +1,4 @@
-SRC_DIR := groupShiftedStrings
+SRC_DIR := countUnivalueSubtrees
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
