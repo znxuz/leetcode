@@ -1,4 +1,4 @@
-SRC_DIR := countUnivalueSubtrees
+SRC_DIR := flatten2DVector
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
