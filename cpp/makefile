@@ -1,4 +1,4 @@
-SRC_DIR := flatten2DVector
+SRC_DIR := meetingRoomsII
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
