@@ -1,4 +1,4 @@
-SRC_DIR := meetingRoomsII
+SRC_DIR := paintHouse
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
