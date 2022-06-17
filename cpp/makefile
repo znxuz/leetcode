@@ -1,4 +1,4 @@
-SRC_DIR := paintHouse
+SRC_DIR := sortArrayByParityII
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
