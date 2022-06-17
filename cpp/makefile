@@ -1,4 +1,4 @@
-SRC_DIR := longPressedName
+SRC_DIR := uniqueEmailAddresses
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
