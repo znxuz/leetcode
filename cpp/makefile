@@ -1,4 +1,4 @@
-SRC_DIR := sortArrayByParityII
+SRC_DIR := longPressedName
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
