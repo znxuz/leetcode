@@ -1,4 +1,4 @@
-SRC_DIR := rangeSumOfBST
+SRC_DIR := 3SumSmaller
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
