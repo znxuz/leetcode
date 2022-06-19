@@ -1,4 +1,4 @@
-SRC_DIR := 3SumSmaller
+SRC_DIR := graphValidTree
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
