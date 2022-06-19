@@ -1,4 +1,4 @@
-SRC_DIR := graphValidTree
+SRC_DIR := searchSuggestionsSystem
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
