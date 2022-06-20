@@ -1,4 +1,4 @@
-SRC_DIR := searchSuggestionsSystem
+SRC_DIR := shortEncodingOfWords
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out

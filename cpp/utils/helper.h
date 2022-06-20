@@ -4,6 +4,7 @@
 #include <limits>
 #include <queue>
 #include <stack>
+#include <memory>
 #include <iostream>
 #include <vector>
 #include <unordered_set>
