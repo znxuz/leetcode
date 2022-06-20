@@ -1,4 +1,4 @@
-SRC_DIR := shortEncodingOfWords
+SRC_DIR := palindromePermutationII
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
