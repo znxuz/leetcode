@@ -1,4 +1,4 @@
-SRC_DIR := deleteColumnToMakeSorted
+SRC_DIR := verifyingAnAlienDictionary
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
