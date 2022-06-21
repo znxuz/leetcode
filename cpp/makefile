@@ -1,4 +1,4 @@
-SRC_DIR := validMountainArray
+SRC_DIR := DIStringMatch
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
