@@ -1,4 +1,4 @@
-SRC_DIR := DIStringMatch
+SRC_DIR := deleteColumnToMakeSorted
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
