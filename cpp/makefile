@@ -1,4 +1,4 @@
-SRC_DIR := furthestBuildingYouCanReach
+SRC_DIR := validMountainArray
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
