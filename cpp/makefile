@@ -1,4 +1,4 @@
-SRC_DIR := verifyingAnAlienDictionary
+SRC_DIR := HIndex
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
