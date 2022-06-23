@@ -1,4 +1,4 @@
-SRC_DIR := fibonacciNumber
+SRC_DIR := largestPerimeterTriangle
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
