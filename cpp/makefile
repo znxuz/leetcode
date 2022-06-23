@@ -1,4 +1,4 @@
-SRC_DIR := hIndexII
+SRC_DIR := nRepeatedElementInSize2NArray
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
