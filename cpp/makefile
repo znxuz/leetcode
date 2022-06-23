@@ -1,4 +1,4 @@
-SRC_DIR := nRepeatedElementInSize2NArray
+SRC_DIR := univaluedBinaryTree
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
