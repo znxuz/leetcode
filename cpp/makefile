@@ -1,4 +1,4 @@
-SRC_DIR := univaluedBinaryTree
+SRC_DIR := fibonacciNumber
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
