@@ -1,4 +1,4 @@
-SRC_DIR := largestPerimeterTriangle
+SRC_DIR := squaresOfASortedArray
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
