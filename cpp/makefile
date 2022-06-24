@@ -1,4 +1,4 @@
-SRC_DIR := squaresOfASortedArray
+SRC_DIR := wiggleSort
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
