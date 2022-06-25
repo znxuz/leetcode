@@ -1,4 +1,4 @@
-SRC_DIR := nonDecreasingArray
+SRC_DIR := zigzagIterator
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
