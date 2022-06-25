@@ -1,4 +1,4 @@
-SRC_DIR := zigzagIterator
+SRC_DIR := inorderSuccessorInBST
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
