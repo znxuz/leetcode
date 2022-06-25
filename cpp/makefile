@@ -1,4 +1,4 @@
-SRC_DIR := wiggleSort
+SRC_DIR := nonDecreasingArray
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
