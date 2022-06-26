@@ -1,4 +1,4 @@
-SRC_DIR := maximumPointsYouCanObtainFromCards
+SRC_DIR := findDuplicateNumber
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
