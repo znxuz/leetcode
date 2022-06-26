@@ -1,4 +1,4 @@
-SRC_DIR := inorderSuccessorInBST
+SRC_DIR := maximumPointsYouCanObtainFromCards
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
