@@ -1,4 +1,4 @@
-SRC_DIR := findDuplicateNumber
+SRC_DIR := partitioningIntoMinimumNumberOfDeciBinaryNumbers
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
