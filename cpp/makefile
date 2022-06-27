@@ -1,4 +1,4 @@
-SRC_DIR := partitioningIntoMinimumNumberOfDeciBinaryNumbers
+SRC_DIR := uniqueWordAbbreviation
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
