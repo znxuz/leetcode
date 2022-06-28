@@ -1,4 +1,4 @@
-SRC_DIR := uniqueWordAbbreviation
+SRC_DIR := minimumDeletionsToMakeCharacterFrequenciesUnique
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
