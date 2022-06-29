@@ -1,4 +1,4 @@
-SRC_DIR := minimumDeletionsToMakeCharacterFrequenciesUnique
+SRC_DIR := binaryTreeLongestConsecutiveSequence
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
