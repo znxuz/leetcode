@@ -1,4 +1,4 @@
-SRC_DIR := binaryTreeLongestConsecutiveSequence
+SRC_DIR := minimumMovesToEqualArrayElements
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
