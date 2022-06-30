@@ -1,4 +1,4 @@
-SRC_DIR := minimumMovesToEqualArrayElementsII
+SRC_DIR := addToArrayFormOfInteger
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
