@@ -1,4 +1,4 @@
-SRC_DIR := addToArrayFormOfInteger
+SRC_DIR := cousinsInBinaryTree
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
