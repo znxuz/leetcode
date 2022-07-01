@@ -1,4 +1,4 @@
-SRC_DIR := maximumUnitsOnATruck
+SRC_DIR := bullsAndCows
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
