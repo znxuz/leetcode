@@ -1,4 +1,4 @@
-SRC_DIR := cousinsInBinaryTree
+SRC_DIR := maximumUnitsOnATruck
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
