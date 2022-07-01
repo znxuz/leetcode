@@ -1,4 +1,4 @@
-SRC_DIR := bullsAndCows
+SRC_DIR := longestIncreasingSubsequence
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
