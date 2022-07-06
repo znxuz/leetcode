@@ -1,4 +1,4 @@
-SRC_DIR := longestIncreasingSubsequence
+SRC_DIR := findTheTownJudge
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
@@ -46,6 +46,3 @@ clean:
 fclean: clean
 	$(RM) $(NAME)
 	$(RM) $(utils_obj)
-
-generate_cc:
-	@echo $(CFLAGS) | sed 's/\s/\n/g' > compile_flags.txt
