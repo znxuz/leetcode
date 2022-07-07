@@ -1,4 +1,4 @@
-SRC_DIR := findCommonCharacters
+SRC_DIR := maximumSumOfArrayAfterKNegations
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
