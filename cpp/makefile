@@ -1,4 +1,4 @@
-SRC_DIR := findTheTownJudge
+SRC_DIR := findCommonCharacters
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
