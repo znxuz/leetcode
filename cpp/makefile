@@ -1,4 +1,4 @@
-SRC_DIR := maximumSumOfArrayAfterKNegations
+SRC_DIR := removeOutermostParentheses
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
