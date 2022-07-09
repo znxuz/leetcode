@@ -1,4 +1,4 @@
-SRC_DIR := sumOfRootToLeafBinaryNumbers
+SRC_DIR := twoSumLessThanK
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
