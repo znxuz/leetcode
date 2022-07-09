@@ -1,4 +1,4 @@
-SRC_DIR := removeOutermostParentheses
+SRC_DIR := sumOfRootToLeafBinaryNumbers
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
