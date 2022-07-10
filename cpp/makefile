@@ -1,4 +1,4 @@
-SRC_DIR := twoSumLessThanK
+SRC_DIR := matrixCellsInDistanceOrder
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
