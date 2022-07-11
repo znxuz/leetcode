@@ -1,4 +1,4 @@
-SRC_DIR := largestUniqueNumber
+SRC_DIR := checkifANumberIsMajorityElementInASortedArray
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
