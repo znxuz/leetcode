@@ -1,4 +1,4 @@
-SRC_DIR := matrixCellsInDistanceOrder
+SRC_DIR := largestUniqueNumber
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
