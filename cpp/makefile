@@ -1,4 +1,4 @@
-SRC_DIR := checkifANumberIsMajorityElementInASortedArray
+SRC_DIR := findWordsThatCanBeFormedByCharacters
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
