@@ -1,4 +1,4 @@
-SRC_DIR := singleRowKeyboard
+SRC_DIR := lastStoneWeight
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
