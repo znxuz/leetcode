@@ -1,4 +1,4 @@
-SRC_DIR := findWordsThatCanBeFormedByCharacters
+SRC_DIR := singleRowKeyboard
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
