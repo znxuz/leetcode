@@ -1,4 +1,4 @@
-SRC_DIR := lastStoneWeight
+SRC_DIR := removeAllAdjacentDuplicatesInString
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
