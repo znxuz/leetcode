@@ -1,4 +1,4 @@
-SRC_DIR := countSubstringsWithOnlyOneDistinctLetter
+SRC_DIR := heightChecker
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
