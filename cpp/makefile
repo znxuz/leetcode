@@ -1,4 +1,4 @@
-SRC_DIR := removeAllAdjacentDuplicatesInString
+SRC_DIR := countSubstringsWithOnlyOneDistinctLetter
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
