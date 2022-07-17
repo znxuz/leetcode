@@ -1,4 +1,4 @@
-SRC_DIR := heightChecker
+SRC_DIR := missingNumberInArithmeticProgression
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
