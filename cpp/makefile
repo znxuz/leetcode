@@ -1,4 +1,4 @@
-SRC_DIR := missingNumberInArithmeticProgression
+SRC_DIR := duplicateZeros
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
