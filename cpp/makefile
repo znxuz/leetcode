@@ -1,4 +1,4 @@
-SRC_DIR := duplicateZeros
+SRC_DIR := arrayTransformation
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
