@@ -1,4 +1,4 @@
-SRC_DIR := arrayTransformation
+SRC_DIR := defangingAnIPAddress
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
