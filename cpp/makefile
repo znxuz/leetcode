@@ -1,4 +1,4 @@
-SRC_DIR := defangingAnIPAddress
+SRC_DIR := meanOfArrayAfterRemovingSomeElements
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
