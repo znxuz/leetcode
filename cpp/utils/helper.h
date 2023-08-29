@@ -11,6 +11,7 @@
 #include <vector>
 #include <unordered_set>
 #include <unordered_map>
+#include <optional>
 
 #include "TreeNode.h"
 #include "ListNode.h"

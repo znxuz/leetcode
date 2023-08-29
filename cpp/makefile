@@ -1,4 +1,4 @@
-SRC_DIR := meanOfArrayAfterRemovingSomeElements
+SRC_DIR := availableCaptureForRock
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out

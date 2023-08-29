@@ -2,5 +2,5 @@
 *.out
 *.a
 compile_flags.txt
-medium
-easy
+commit_list
+show_commit
