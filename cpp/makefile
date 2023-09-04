@@ -1,4 +1,4 @@
-SRC_DIR := availableCaptureForRock
+SRC_DIR := findTheDifferenceOfTwoArrays
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
