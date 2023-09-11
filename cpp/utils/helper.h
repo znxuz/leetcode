@@ -13,6 +13,8 @@
 #include <unordered_map>
 #include <optional>
 
+#include <fmt/core.h>
+
 #include "TreeNode.h"
 #include "ListNode.h"
 

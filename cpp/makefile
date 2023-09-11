@@ -1,4 +1,4 @@
-SRC_DIR := findTheDifferenceOfTwoArrays
+SRC_DIR := groupThePeopleGivenTheGroupSizeTheyBelongTo
 
 BIN_DIR := bin
 NAME := $(BIN_DIR)/a.out
@@ -15,8 +15,10 @@ LANG := c++
 STD := c++20
 WARNINGS := -Wall -Wextra -Wpedantic -Weffc++ -Wconversion \
 			-Wno-unused-parameter -Wno-unused-function
-SAN := -fsanitize=address,undefined
 CFLAGS := -x $(LANG) -std=$(STD) $(WARNINGS) $(DEBUG) -I$(UTILS_DIR)
+
+SAN := -fsanitize=address,undefined
+LIB := -lfmt
 
 ARGS :=
 
@@ -32,7 +34,7 @@ debug: CFLAGS += -g -DDEBUG=1 -O0
 debug: fclean compile
 
 $(NAME): $(utils_obj) $(obj)
-	$(CC) $(utils_obj) $(SAN) $(obj) -o $(NAME)
+	$(CC) $(utils_obj) $(obj) $(SAN) $(LIB) -o $(NAME)
 
 %.o: %.cpp
 	$(CC) $(CFLAGS) -c $^ -o $@
